@@ -1,27 +1,86 @@
 <script setup>
-import {watch, ref} from 'vue';
-
-const value = ref('');
-const value1 = ref('');
-watch(value, () => {
-  console.log(value.value);
-});
-watch(value1, () => {
-  console.log(value1.value);
-});
+import PackageChart from "@/components/PackageChart.vue";
 </script>
 
 
 <template>
-  <h1>Home</h1>
-  <a-space direction="vertical">
-    <a-input v-model:value="value" placeholder="Basic usage"/>
-    <a-input v-model:value.lazy="value1" autofocus placeholder="Lazy usage"/>
-  </a-space>
+  <div class="main-container">
+    <div class="top-container">
+      <div class="bubble-container">
+        <PackageChart/>
+      </div>
+
+      <div class="net-container">
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <div class="word-container"></div>
+      <div class="high-container"></div>
+      <div class="paper-container"></div>
+    </div>
+    <div>
+    </div>
+  </div>
+
 </template>
 
 
 <style lang='scss' scoped>
+.main-container {
+  border: 1px solid red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.top-container {
+  border: 1px solid red;
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+  .bubble-container {
+    border: 1px solid pink;
+    width: 40%;
+    height: 100%;
+  }
+
+
+  .net-container {
+    border: 1px solid pink;
+    width: 60%;
+    height: 100%;
+  }
+
+
+}
+
+.bottom-container {
+  border: 1px solid red;
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+  .word-container {
+
+    border: 1px solid pink;
+    width: 40%;
+    height: 100%;
+  }
+
+  .high-container {
+    border: 1px solid pink;
+    width: 40%;
+    height: 100%;
+  }
+
+  .paper-container {
+    border: 1px solid pink;
+    width: 20%;
+    height: 100%;
+  }
+}
 
 </style>
