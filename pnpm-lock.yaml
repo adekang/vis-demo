@@ -29,6 +29,9 @@ dependencies:
   echarts:
     specifier: ^5.4.3
     version: 5.4.3
+  echarts-wordcloud:
+    specifier: ^2.1.0
+    version: 2.1.0(echarts@5.4.3)
   pinia:
     specifier: ^2.1.7
     version: 2.1.7(vue@3.3.8)
@@ -1391,6 +1394,14 @@ packages:
     hasBin: true
     dependencies:
       minimatch: 3.1.2
+    dev: false
+
+  /echarts-wordcloud@2.1.0(echarts@5.4.3):
+    resolution: {integrity: sha512-Kt1JmbcROgb+3IMI48KZECK2AP5lG6bSsOEs+AsuwaWJxQom31RTNd6NFYI01E/YaI1PFZeueaupjlmzSQasjQ==}
+    peerDependencies:
+      echarts: ^5.0.1
+    dependencies:
+      echarts: 5.4.3
     dev: false
 
   /echarts@5.4.3:

@@ -1,5 +1,8 @@
 <script setup>
 import PackageChart from "@/components/PackageChart.vue";
+import NetWorkChart from "@/components/NetWorkChart.vue";
+import WordChart from "@/components/WordChart.vue";
+import PaperListCard from "@/components/PaperListCard.vue";
 </script>
 
 
@@ -11,13 +14,20 @@ import PackageChart from "@/components/PackageChart.vue";
       </div>
 
       <div class="net-container">
+        <NetWorkChart/>
       </div>
     </div>
 
     <div class="bottom-container">
-      <div class="word-container"></div>
-      <div class="high-container"></div>
-      <div class="paper-container"></div>
+      <div class="word-container">
+        <WordChart/>
+      </div>
+      <div class="high-container">
+
+      </div>
+      <div class="paper-container">
+        <PaperListCard/>
+      </div>
     </div>
     <div>
     </div>
