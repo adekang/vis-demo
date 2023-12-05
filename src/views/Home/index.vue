@@ -8,25 +8,29 @@ import PaperListCard from "@/components/PaperListCard.vue";
 
 <template>
   <div class="main-container">
-    <div class="top-container">
-      <div class="bubble-container">
+    <div class="left-container">
+      <div class="bubble-container item">
         <PackageChart/>
       </div>
 
-      <div class="net-container">
-        <NetWorkChart/>
+      <div class="search-container item">
+
       </div>
     </div>
 
-    <div class="bottom-container">
-      <div class="word-container">
-        <WordChart/>
+    <div class="right-container">
+      <div class="top-container net-container item">
+        <NetWorkChart/>
       </div>
-      <div class="high-container">
-
-      </div>
-      <div class="paper-container">
-        <PaperListCard/>
+      <div class="bottom-container">
+        <div class="word-container item">
+          <WordChart/>
+        </div>
+        <div class="high-container item">
+        </div>
+        <div class="paper-container item">
+          <PaperListCard/>
+        </div>
       </div>
     </div>
     <div>
@@ -38,59 +42,66 @@ import PaperListCard from "@/components/PaperListCard.vue";
 
 <style lang='scss' scoped>
 .main-container {
-  border: 1px solid red;
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
 }
 
-.top-container {
-  border: 1px solid red;
-  width: 100%;
-  height: 50%;
+.item {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+.left-container {
+  height: 100%;
+  width: 30%;
   display: flex;
+  flex-direction: column;
 
   .bubble-container {
-    border: 1px solid pink;
-    width: 40%;
-    height: 100%;
+    aspect-ratio: 1 / 1;
+    width: 100%;
   }
 
-
-  .net-container {
-    border: 1px solid pink;
-    width: 60%;
-    height: 100%;
+  .search-container {
+    width: 100%;
+    flex: 1;
   }
-
-
 }
 
-.bottom-container {
-  border: 1px solid red;
-  width: 100%;
-  height: 50%;
+.right-container {
+  width: 70%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
 
-  .word-container {
+  .top-container {
+    width: 100%;
+    height: 50%;
 
-    border: 1px solid pink;
-    width: 40%;
-    height: 100%;
   }
 
-  .high-container {
-    border: 1px solid pink;
-    width: 40%;
-    height: 100%;
-  }
+  .bottom-container {
+    display: flex;
+    height: 50%;
 
-  .paper-container {
-    border: 1px solid pink;
-    width: 20%;
-    height: 100%;
+
+    .word-container {
+      flex: 1;
+      height: 100%;
+    }
+
+    .high-container {
+      flex: 1;
+      height: 100%;
+    }
+
+    .paper-container {
+      flex: 1;
+      height: 100%;
+    }
   }
 }
+
 
 </style>
