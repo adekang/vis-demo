@@ -6,3 +6,16 @@ export const requestLogin = (data) => {
         data
     })
 }
+/**
+ * 获取所有单词
+ * @param category
+ * @returns {Promise | Promise<unknown>}
+ */
+export const findAllByCategory = (category) => {
+    return service.get({
+        url: '/words/findAllByCategory',
+        params: {
+            category
+        }
+    })
+}

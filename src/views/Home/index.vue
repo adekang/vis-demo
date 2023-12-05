@@ -12,9 +12,8 @@ import PaperListCard from "@/components/PaperListCard.vue";
       <div class="bubble-container item">
         <PackageChart/>
       </div>
-
-      <div class="search-container item">
-
+      <div class="word-container item">
+        <WordChart/>
       </div>
     </div>
 
@@ -23,8 +22,7 @@ import PaperListCard from "@/components/PaperListCard.vue";
         <NetWorkChart/>
       </div>
       <div class="bottom-container">
-        <div class="word-container item">
-          <WordChart/>
+        <div class="search-container item">
         </div>
         <div class="high-container item">
         </div>
@@ -63,7 +61,7 @@ import PaperListCard from "@/components/PaperListCard.vue";
     width: 100%;
   }
 
-  .search-container {
+  .word-container {
     width: 100%;
     flex: 1;
   }
@@ -86,7 +84,7 @@ import PaperListCard from "@/components/PaperListCard.vue";
     height: 50%;
 
 
-    .word-container {
+    .search-container {
       flex: 1;
       height: 100%;
     }
