@@ -3,19 +3,32 @@
 </template>
 
 <script setup>
-import {onMounted, ref} from "vue"
+import {onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import 'echarts-wordcloud';
 import {findAllByCategory} from "@/services/index.js";
 
 const wordData = ref()
 
+const props = defineProps({
+  category: {
+    type: String,
+    required: true
+  }
+})
+const {category} = toRefs(props)
+watch(()=>category.value, async (newVal) => {
+  const res = await findAllByCategory(newVal)
+  wordData.value = res.data
+  renderChart()
+})
+
+
 // 1. 创建echarts实例
 let mChart = null;
 const target = ref(null)
 onMounted(async () => {
   const res = await findAllByCategory("Statistics")
-  console.log(res)
   wordData.value = res.data
   mChart = echarts.init(target.value)
   renderChart()

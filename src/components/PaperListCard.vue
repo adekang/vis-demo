@@ -56,12 +56,26 @@
 
 
 <script setup>
-import {ref} from "vue";
-import {findAllByCategory} from "@/services/paper.js";
+import {ref, toRefs, watch} from "vue";
+import {findAllByCategory, selectByCategory} from "@/services/paper.js";
 
 const listData = ref([]);
 const open = ref(false);
-const value = ref('Aygun');
+const value = ref('');
+
+const props = defineProps({
+  category: {
+    type: String,
+    required: true
+  }
+})
+const {category} = toRefs(props)
+watch(() => category.value, async (newVal) => {
+  const res = await selectByCategory(newVal)
+  listData.value = res.data
+})
+
+
 const onSearch = (searchValue) => {
   findAllByCategory(searchValue).then(res => {
     listData.value = res.data

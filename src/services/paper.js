@@ -23,3 +23,18 @@ export const selectBar = (category) => {
         }
     })
 }
+
+/**
+ * 更具 categories 查找论文
+ * @param categories
+ * @returns {Promise | Promise<unknown>}
+ */
+
+export const selectByCategory = (categories) => {
+    return service.get({
+        url: '/Paper/selectByCategory',
+        params: {
+            categories
+        }
+    })
+}

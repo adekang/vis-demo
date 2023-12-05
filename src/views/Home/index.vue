@@ -22,13 +22,13 @@ const handlePackageSelected = (data) =>{
         <PackageChart @circleSelected="handlePackageSelected"/>
       </div>
       <div class="word-container item">
-        <WordChart/>
+        <WordChart :category="selectedPackageData"/>
       </div>
     </div>
 
     <div class="right-container">
       <div class="top-container net-container item">
-        <NetWorkChart/>
+        <NetWorkChart :category="selectedPackageData"/>
       </div>
       <div class="bottom-container">
         <div class="search-container item">
@@ -37,7 +37,7 @@ const handlePackageSelected = (data) =>{
           <HighChart/>
         </div>
         <div class="paper-container item">
-          <PaperListCard/>
+          <PaperListCard :category="selectedPackageData"/>
         </div>
       </div>
     </div>

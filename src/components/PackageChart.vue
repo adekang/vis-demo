@@ -60,7 +60,6 @@ function drawChart(container) {
       .on("click", (event, d) => {
         if (!d.children) { // 检查是否为叶子节点
           const selectedName = d.data.name;
-          console.log(d.data.name);
           emit('circleSelected', selectedName);
           event.stopPropagation(); // 阻止事件传播
           return; // 如果是叶子节点，执行完传值操作后退出函数

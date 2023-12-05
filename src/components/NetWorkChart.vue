@@ -3,13 +3,26 @@
 </template>
 
 <script setup>
-import {ref, onMounted, watch} from "vue"
+import {onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import graph from '../../public/les-miserables.json'
 
 // 1. 创建echarts实例
 let mChart = null;
 const target = ref(null)
+
+const props = defineProps({
+  category: {
+    type: String,
+    required: true
+  }
+})
+const {category} = toRefs(props)
+watch(()=>category.value, async (newVal) => {
+  // const res = await findAllByCategory(newVal)
+  // wordData.value = res.data
+  // renderChart()
+})
 
 onMounted(() => {
   mChart = echarts.init(target.value)
