@@ -1,9 +1,17 @@
 <script setup>
+import {ref} from "vue";
 import PackageChart from "@/components/PackageChart.vue";
 import NetWorkChart from "@/components/NetWorkChart.vue";
 import WordChart from "@/components/WordChart.vue";
 import PaperListCard from "@/components/PaperListCard.vue";
 import HighChart from "@/components/HighChart.vue";
+
+const selectedPackageData = ref('')// Package图选中的数据
+const handlePackageSelected = (data) =>{
+  selectedPackageData.value = data
+  console.log(selectedPackageData.value)
+}
+
 </script>
 
 
@@ -11,7 +19,7 @@ import HighChart from "@/components/HighChart.vue";
   <div class="main-container">
     <div class="left-container">
       <div class="bubble-container item">
-        <PackageChart/>
+        <PackageChart @circleSelected="handlePackageSelected"/>
       </div>
       <div class="word-container item">
         <WordChart/>
