@@ -1,1744 +1,8734 @@
 {
-    "nodes": [
-      {
-        "id": "0",
-        "name": "Myriel",
-        "symbolSize": 19.12381,
-        "x": -266.82776,
-        "y": 299.6904,
-        "value": 28.685715,
-        "category": 0
-      },
-      {
-        "id": "1",
-        "name": "Napoleon",
-        "symbolSize": 2.6666666666666665,
-        "x": -418.08344,
-        "y": 446.8853,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "2",
-        "name": "MlleBaptistine",
-        "symbolSize": 6.323809333333333,
-        "x": -212.76357,
-        "y": 245.29176,
-        "value": 9.485714,
-        "category": 1
-      },
-      {
-        "id": "3",
-        "name": "MmeMagloire",
-        "symbolSize": 6.323809333333333,
-        "x": -242.82404,
-        "y": 235.26283,
-        "value": 9.485714,
-        "category": 1
-      },
-      {
-        "id": "4",
-        "name": "CountessDeLo",
-        "symbolSize": 2.6666666666666665,
-        "x": -379.30386,
-        "y": 429.06424,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "5",
-        "name": "Geborand",
-        "symbolSize": 2.6666666666666665,
-        "x": -417.26337,
-        "y": 406.03506,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "6",
-        "name": "Champtercier",
-        "symbolSize": 2.6666666666666665,
-        "x": -332.6012,
-        "y": 485.16974,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "7",
-        "name": "Cravatte",
-        "symbolSize": 2.6666666666666665,
-        "x": -382.69568,
-        "y": 475.09113,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "8",
-        "name": "Count",
-        "symbolSize": 2.6666666666666665,
-        "x": -320.384,
-        "y": 387.17325,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "9",
-        "name": "OldMan",
-        "symbolSize": 2.6666666666666665,
-        "x": -344.39832,
-        "y": 451.16772,
-        "value": 4,
-        "category": 0
-      },
-      {
-        "id": "10",
-        "name": "Labarre",
-        "symbolSize": 2.6666666666666665,
-        "x": -89.34107,
-        "y": 234.56128,
-        "value": 4,
-        "category": 1
-      },
-      {
-        "id": "11",
-        "name": "Valjean",
-        "symbolSize": 66.66666666666667,
-        "x": -87.93029,
-        "y": -6.8120565,
-        "value": 100,
-        "category": 1
-      },
-      {
-        "id": "12",
-        "name": "Marguerite",
-        "symbolSize": 4.495239333333333,
-        "x": -339.77908,
-        "y": -184.69139,
-        "value": 6.742859,
-        "category": 1
-      },
-      {
-        "id": "13",
-        "name": "MmeDeR",
-        "symbolSize": 2.6666666666666665,
-        "x": -194.31313,
-        "y": 178.55301,
-        "value": 4,
-        "category": 1
-      },
-      {
-        "id": "14",
-        "name": "Isabeau",
-        "symbolSize": 2.6666666666666665,
-        "x": -158.05168,
-        "y": 201.99768,
-        "value": 4,
-        "category": 1
-      },
-      {
-        "id": "15",
-        "name": "Gervais",
-        "symbolSize": 2.6666666666666665,
-        "x": -127.701546,
-        "y": 242.55057,
-        "value": 4,
-        "category": 1
-      },
-      {
-        "id": "16",
-        "name": "Tholomyes",
-        "symbolSize": 17.295237333333333,
-        "x": -385.2226,
-        "y": -393.5572,
-        "value": 25.942856,
-        "category": 2
-      },
-      {
-        "id": "17",
-        "name": "Listolier",
-        "symbolSize": 13.638097333333334,
-        "x": -516.55884,
-        "y": -393.98975,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "18",
-        "name": "Fameuil",
-        "symbolSize": 13.638097333333334,
-        "x": -464.79382,
-        "y": -493.57944,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "19",
-        "name": "Blacheville",
-        "symbolSize": 13.638097333333334,
-        "x": -515.1624,
-        "y": -456.9891,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "20",
-        "name": "Favourite",
-        "symbolSize": 13.638097333333334,
-        "x": -408.12122,
-        "y": -464.5048,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "21",
-        "name": "Dahlia",
-        "symbolSize": 13.638097333333334,
-        "x": -456.44113,
-        "y": -425.13303,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "22",
-        "name": "Zephine",
-        "symbolSize": 13.638097333333334,
-        "x": -459.1107,
-        "y": -362.5133,
-        "value": 20.457146,
-        "category": 2
-      },
-      {
-        "id": "23",
-        "name": "Fantine",
-        "symbolSize": 28.266666666666666,
-        "x": -313.42786,
-        "y": -289.44803,
-        "value": 42.4,
-        "category": 2
-      },
-      {
-        "id": "24",
-        "name": "MmeThenardier",
-        "symbolSize": 20.95238266666667,
-        "x": 4.6313396,
-        "y": -273.8517,
-        "value": 31.428574,
-        "category": 7
-      },
-      {
-        "id": "25",
-        "name": "Thenardier",
-        "symbolSize": 30.095235333333335,
-        "x": 82.80825,
-        "y": -203.1144,
-        "value": 45.142853,
-        "category": 7
-      },
-      {
-        "id": "26",
-        "name": "Cosette",
-        "symbolSize": 20.95238266666667,
-        "x": 78.64646,
-        "y": -31.512747,
-        "value": 31.428574,
-        "category": 6
-      },
-      {
-        "id": "27",
-        "name": "Javert",
-        "symbolSize": 31.923806666666668,
-        "x": -81.46074,
-        "y": -204.20204,
-        "value": 47.88571,
-        "category": 7
-      },
-      {
-        "id": "28",
-        "name": "Fauchelevent",
-        "symbolSize": 8.152382000000001,
-        "x": -225.73984,
-        "y": 82.41631,
-        "value": 12.228573,
-        "category": 4
-      },
-      {
-        "id": "29",
-        "name": "Bamatabois",
-        "symbolSize": 15.466666666666667,
-        "x": -385.6842,
-        "y": -20.206686,
-        "value": 23.2,
-        "category": 3
-      },
-      {
-        "id": "30",
-        "name": "Perpetue",
-        "symbolSize": 4.495239333333333,
-        "x": -403.92447,
-        "y": -197.69823,
-        "value": 6.742859,
-        "category": 2
-      },
-      {
-        "id": "31",
-        "name": "Simplice",
-        "symbolSize": 8.152382000000001,
-        "x": -281.4253,
-        "y": -158.45137,
-        "value": 12.228573,
-        "category": 2
-      },
-      {
-        "id": "32",
-        "name": "Scaufflaire",
-        "symbolSize": 2.6666666666666665,
-        "x": -122.41348,
-        "y": 210.37503,
-        "value": 4,
-        "category": 1
-      },
-      {
-        "id": "33",
-        "name": "Woman1",
-        "symbolSize": 4.495239333333333,
-        "x": -234.6001,
-        "y": -113.15067,
-        "value": 6.742859,
-        "category": 1
-      },
-      {
-        "id": "34",
-        "name": "Judge",
-        "symbolSize": 11.809524666666666,
-        "x": -387.84915,
-        "y": 58.7059,
-        "value": 17.714287,
-        "category": 3
-      },
-      {
-        "id": "35",
-        "name": "Champmathieu",
-        "symbolSize": 11.809524666666666,
-        "x": -338.2307,
-        "y": 87.48405,
-        "value": 17.714287,
-        "category": 3
-      },
-      {
-        "id": "36",
-        "name": "Brevet",
-        "symbolSize": 11.809524666666666,
-        "x": -453.26874,
-        "y": 58.94648,
-        "value": 17.714287,
-        "category": 3
-      },
-      {
-        "id": "37",
-        "name": "Chenildieu",
-        "symbolSize": 11.809524666666666,
-        "x": -386.44904,
-        "y": 140.05937,
-        "value": 17.714287,
-        "category": 3
-      },
-      {
-        "id": "38",
-        "name": "Cochepaille",
-        "symbolSize": 11.809524666666666,
-        "x": -446.7876,
-        "y": 123.38005,
-        "value": 17.714287,
-        "category": 3
-      },
-      {
-        "id": "39",
-        "name": "Pontmercy",
-        "symbolSize": 6.323809333333333,
-        "x": 336.49738,
-        "y": -269.55914,
-        "value": 9.485714,
-        "category": 6
-      },
-      {
-        "id": "40",
-        "name": "Boulatruelle",
-        "symbolSize": 2.6666666666666665,
-        "x": 29.187843,
-        "y": -460.13132,
-        "value": 4,
-        "category": 7
-      },
-      {
-        "id": "41",
-        "name": "Eponine",
-        "symbolSize": 20.95238266666667,
-        "x": 238.36697,
-        "y": -210.00926,
-        "value": 31.428574,
-        "category": 7
-      },
-      {
-        "id": "42",
-        "name": "Anzelma",
-        "symbolSize": 6.323809333333333,
-        "x": 189.69513,
-        "y": -346.50662,
-        "value": 9.485714,
-        "category": 7
-      },
-      {
-        "id": "43",
-        "name": "Woman2",
-        "symbolSize": 6.323809333333333,
-        "x": -187.00418,
-        "y": -145.02663,
-        "value": 9.485714,
-        "category": 6
-      },
-      {
-        "id": "44",
-        "name": "MotherInnocent",
-        "symbolSize": 4.495239333333333,
-        "x": -252.99521,
-        "y": 129.87549,
-        "value": 6.742859,
-        "category": 4
-      },
-      {
-        "id": "45",
-        "name": "Gribier",
-        "symbolSize": 2.6666666666666665,
-        "x": -296.07935,
-        "y": 163.11964,
-        "value": 4,
-        "category": 4
-      },
-      {
-        "id": "46",
-        "name": "Jondrette",
-        "symbolSize": 2.6666666666666665,
-        "x": 550.3201,
-        "y": 522.4031,
-        "value": 4,
-        "category": 5
-      },
-      {
-        "id": "47",
-        "name": "MmeBurgon",
-        "symbolSize": 4.495239333333333,
-        "x": 488.13535,
-        "y": 356.8573,
-        "value": 6.742859,
-        "category": 5
-      },
-      {
-        "id": "48",
-        "name": "Gavroche",
-        "symbolSize": 41.06667066666667,
-        "x": 387.89572,
-        "y": 110.462326,
-        "value": 61.600006,
-        "category": 8
-      },
-      {
-        "id": "49",
-        "name": "Gillenormand",
-        "symbolSize": 13.638097333333334,
-        "x": 126.4831,
-        "y": 68.10622,
-        "value": 20.457146,
-        "category": 6
-      },
-      {
-        "id": "50",
-        "name": "Magnon",
-        "symbolSize": 4.495239333333333,
-        "x": 127.07365,
-        "y": -113.05923,
-        "value": 6.742859,
-        "category": 6
-      },
-      {
-        "id": "51",
-        "name": "MlleGillenormand",
-        "symbolSize": 13.638097333333334,
-        "x": 162.63559,
-        "y": 117.6565,
-        "value": 20.457146,
-        "category": 6
-      },
-      {
-        "id": "52",
-        "name": "MmePontmercy",
-        "symbolSize": 4.495239333333333,
-        "x": 353.66415,
-        "y": -205.89165,
-        "value": 6.742859,
-        "category": 6
-      },
-      {
-        "id": "53",
-        "name": "MlleVaubois",
-        "symbolSize": 2.6666666666666665,
-        "x": 165.43939,
-        "y": 339.7736,
-        "value": 4,
-        "category": 6
-      },
-      {
-        "id": "54",
-        "name": "LtGillenormand",
-        "symbolSize": 8.152382000000001,
-        "x": 137.69348,
-        "y": 196.1069,
-        "value": 12.228573,
-        "category": 6
-      },
-      {
-        "id": "55",
-        "name": "Marius",
-        "symbolSize": 35.58095333333333,
-        "x": 206.44687,
-        "y": -13.805411,
-        "value": 53.37143,
-        "category": 6
-      },
-      {
-        "id": "56",
-        "name": "BaronessT",
-        "symbolSize": 4.495239333333333,
-        "x": 194.82993,
-        "y": 224.78036,
-        "value": 6.742859,
-        "category": 6
-      },
-      {
-        "id": "57",
-        "name": "Mabeuf",
-        "symbolSize": 20.95238266666667,
-        "x": 597.6618,
-        "y": 135.18481,
-        "value": 31.428574,
-        "category": 8
-      },
-      {
-        "id": "58",
-        "name": "Enjolras",
-        "symbolSize": 28.266666666666666,
-        "x": 355.78366,
-        "y": -74.882454,
-        "value": 42.4,
-        "category": 8
-      },
-      {
-        "id": "59",
-        "name": "Combeferre",
-        "symbolSize": 20.95238266666667,
-        "x": 515.2961,
-        "y": -46.167564,
-        "value": 31.428574,
-        "category": 8
-      },
-      {
-        "id": "60",
-        "name": "Prouvaire",
-        "symbolSize": 17.295237333333333,
-        "x": 614.29285,
-        "y": -69.3104,
-        "value": 25.942856,
-        "category": 8
-      },
-      {
-        "id": "61",
-        "name": "Feuilly",
-        "symbolSize": 20.95238266666667,
-        "x": 550.1917,
-        "y": -128.17537,
-        "value": 31.428574,
-        "category": 8
-      },
-      {
-        "id": "62",
-        "name": "Courfeyrac",
-        "symbolSize": 24.609526666666667,
-        "x": 436.17184,
-        "y": -12.7286825,
-        "value": 36.91429,
-        "category": 8
-      },
-      {
-        "id": "63",
-        "name": "Bahorel",
-        "symbolSize": 22.780953333333333,
-        "x": 602.55225,
-        "y": 16.421427,
-        "value": 34.17143,
-        "category": 8
-      },
-      {
-        "id": "64",
-        "name": "Bossuet",
-        "symbolSize": 24.609526666666667,
-        "x": 455.81955,
-        "y": -115.45826,
-        "value": 36.91429,
-        "category": 8
-      },
-      {
-        "id": "65",
-        "name": "Joly",
-        "symbolSize": 22.780953333333333,
-        "x": 516.40784,
-        "y": 47.242233,
-        "value": 34.17143,
-        "category": 8
-      },
-      {
-        "id": "66",
-        "name": "Grantaire",
-        "symbolSize": 19.12381,
-        "x": 646.4313,
-        "y": -151.06331,
-        "value": 28.685715,
-        "category": 8
-      },
-      {
-        "id": "67",
-        "name": "MotherPlutarch",
-        "symbolSize": 2.6666666666666665,
-        "x": 668.9568,
-        "y": 204.65488,
-        "value": 4,
-        "category": 8
-      },
-      {
-        "id": "68",
-        "name": "Gueulemer",
-        "symbolSize": 19.12381,
-        "x": 78.4799,
-        "y": -347.15146,
-        "value": 28.685715,
-        "category": 7
-      },
-      {
-        "id": "69",
-        "name": "Babet",
-        "symbolSize": 19.12381,
-        "x": 150.35959,
-        "y": -298.50797,
-        "value": 28.685715,
-        "category": 7
-      },
-      {
-        "id": "70",
-        "name": "Claquesous",
-        "symbolSize": 19.12381,
-        "x": 137.3717,
-        "y": -410.2809,
-        "value": 28.685715,
-        "category": 7
-      },
-      {
-        "id": "71",
-        "name": "Montparnasse",
-        "symbolSize": 17.295237333333333,
-        "x": 234.87747,
-        "y": -400.85983,
-        "value": 25.942856,
-        "category": 7
-      },
-      {
-        "id": "72",
-        "name": "Toussaint",
-        "symbolSize": 6.323809333333333,
-        "x": 40.942253,
-        "y": 113.78272,
-        "value": 9.485714,
-        "category": 1
-      },
-      {
-        "id": "73",
-        "name": "Child1",
-        "symbolSize": 4.495239333333333,
-        "x": 437.939,
-        "y": 291.58234,
-        "value": 6.742859,
-        "category": 8
-      },
-      {
-        "id": "74",
-        "name": "Child2",
-        "symbolSize": 4.495239333333333,
-        "x": 466.04922,
-        "y": 283.3606,
-        "value": 6.742859,
-        "category": 8
-      },
-      {
-        "id": "75",
-        "name": "Brujon",
-        "symbolSize": 13.638097333333334,
-        "x": 238.79364,
-        "y": -314.06345,
-        "value": 20.457146,
-        "category": 7
-      },
-      {
-        "id": "76",
-        "name": "MmeHucheloup",
-        "symbolSize": 13.638097333333334,
-        "x": 712.18353,
-        "y": 4.8131495,
-        "value": 20.457146,
-        "category": 8
-      }
-    ],
-    "links": [
-      {
-        "source": "1",
-        "target": "0"
-      },
-      {
-        "source": "2",
-        "target": "0"
-      },
-      {
-        "source": "3",
-        "target": "0"
-      },
-      {
-        "source": "3",
-        "target": "2"
-      },
-      {
-        "source": "4",
-        "target": "0"
-      },
-      {
-        "source": "5",
-        "target": "0"
-      },
-      {
-        "source": "6",
-        "target": "0"
-      },
-      {
-        "source": "7",
-        "target": "0"
-      },
-      {
-        "source": "8",
-        "target": "0"
-      },
-      {
-        "source": "9",
-        "target": "0"
-      },
-      {
-        "source": "11",
-        "target": "0"
-      },
-      {
-        "source": "11",
-        "target": "2"
-      },
-      {
-        "source": "11",
-        "target": "3"
-      },
-      {
-        "source": "11",
-        "target": "10"
-      },
-      {
-        "source": "12",
-        "target": "11"
-      },
-      {
-        "source": "13",
-        "target": "11"
-      },
-      {
-        "source": "14",
-        "target": "11"
-      },
-      {
-        "source": "15",
-        "target": "11"
-      },
-      {
-        "source": "17",
-        "target": "16"
-      },
-      {
-        "source": "18",
-        "target": "16"
-      },
-      {
-        "source": "18",
-        "target": "17"
-      },
-      {
-        "source": "19",
-        "target": "16"
-      },
-      {
-        "source": "19",
-        "target": "17"
-      },
-      {
-        "source": "19",
-        "target": "18"
-      },
-      {
-        "source": "20",
-        "target": "16"
-      },
-      {
-        "source": "20",
-        "target": "17"
-      },
-      {
-        "source": "20",
-        "target": "18"
-      },
-      {
-        "source": "20",
-        "target": "19"
-      },
-      {
-        "source": "21",
-        "target": "16"
-      },
-      {
-        "source": "21",
-        "target": "17"
-      },
-      {
-        "source": "21",
-        "target": "18"
-      },
-      {
-        "source": "21",
-        "target": "19"
-      },
-      {
-        "source": "21",
-        "target": "20"
-      },
-      {
-        "source": "22",
-        "target": "16"
-      },
-      {
-        "source": "22",
-        "target": "17"
-      },
-      {
-        "source": "22",
-        "target": "18"
-      },
-      {
-        "source": "22",
-        "target": "19"
-      },
-      {
-        "source": "22",
-        "target": "20"
-      },
-      {
-        "source": "22",
-        "target": "21"
-      },
-      {
-        "source": "23",
-        "target": "11"
-      },
-      {
-        "source": "23",
-        "target": "12"
-      },
-      {
-        "source": "23",
-        "target": "16"
-      },
-      {
-        "source": "23",
-        "target": "17"
-      },
-      {
-        "source": "23",
-        "target": "18"
-      },
-      {
-        "source": "23",
-        "target": "19"
-      },
-      {
-        "source": "23",
-        "target": "20"
-      },
-      {
-        "source": "23",
-        "target": "21"
-      },
-      {
-        "source": "23",
-        "target": "22"
-      },
-      {
-        "source": "24",
-        "target": "11"
-      },
-      {
-        "source": "24",
-        "target": "23"
-      },
-      {
-        "source": "25",
-        "target": "11"
-      },
-      {
-        "source": "25",
-        "target": "23"
-      },
-      {
-        "source": "25",
-        "target": "24"
-      },
-      {
-        "source": "26",
-        "target": "11"
-      },
-      {
-        "source": "26",
-        "target": "16"
-      },
-      {
-        "source": "26",
-        "target": "24"
-      },
-      {
-        "source": "26",
-        "target": "25"
-      },
-      {
-        "source": "27",
-        "target": "11"
-      },
-      {
-        "source": "27",
-        "target": "23"
-      },
-      {
-        "source": "27",
-        "target": "24"
-      },
-      {
-        "source": "27",
-        "target": "25"
-      },
-      {
-        "source": "27",
-        "target": "26"
-      },
-      {
-        "source": "28",
-        "target": "11"
-      },
-      {
-        "source": "28",
-        "target": "27"
-      },
-      {
-        "source": "29",
-        "target": "11"
-      },
-      {
-        "source": "29",
-        "target": "23"
-      },
-      {
-        "source": "29",
-        "target": "27"
-      },
-      {
-        "source": "30",
-        "target": "23"
-      },
-      {
-        "source": "31",
-        "target": "11"
-      },
-      {
-        "source": "31",
-        "target": "23"
-      },
-      {
-        "source": "31",
-        "target": "27"
-      },
-      {
-        "source": "31",
-        "target": "30"
-      },
-      {
-        "source": "32",
-        "target": "11"
-      },
-      {
-        "source": "33",
-        "target": "11"
-      },
-      {
-        "source": "33",
-        "target": "27"
-      },
-      {
-        "source": "34",
-        "target": "11"
-      },
-      {
-        "source": "34",
-        "target": "29"
-      },
-      {
-        "source": "35",
-        "target": "11"
-      },
-      {
-        "source": "35",
-        "target": "29"
-      },
-      {
-        "source": "35",
-        "target": "34"
-      },
-      {
-        "source": "36",
-        "target": "11"
-      },
-      {
-        "source": "36",
-        "target": "29"
-      },
-      {
-        "source": "36",
-        "target": "34"
-      },
-      {
-        "source": "36",
-        "target": "35"
-      },
-      {
-        "source": "37",
-        "target": "11"
-      },
-      {
-        "source": "37",
-        "target": "29"
-      },
-      {
-        "source": "37",
-        "target": "34"
-      },
-      {
-        "source": "37",
-        "target": "35"
-      },
-      {
-        "source": "37",
-        "target": "36"
-      },
-      {
-        "source": "38",
-        "target": "11"
-      },
-      {
-        "source": "38",
-        "target": "29"
-      },
-      {
-        "source": "38",
-        "target": "34"
-      },
-      {
-        "source": "38",
-        "target": "35"
-      },
-      {
-        "source": "38",
-        "target": "36"
-      },
-      {
-        "source": "38",
-        "target": "37"
-      },
-      {
-        "source": "39",
-        "target": "25"
-      },
-      {
-        "source": "40",
-        "target": "25"
-      },
-      {
-        "source": "41",
-        "target": "24"
-      },
-      {
-        "source": "41",
-        "target": "25"
-      },
-      {
-        "source": "42",
-        "target": "24"
-      },
-      {
-        "source": "42",
-        "target": "25"
-      },
-      {
-        "source": "42",
-        "target": "41"
-      },
-      {
-        "source": "43",
-        "target": "11"
-      },
-      {
-        "source": "43",
-        "target": "26"
-      },
-      {
-        "source": "43",
-        "target": "27"
-      },
-      {
-        "source": "44",
-        "target": "11"
-      },
-      {
-        "source": "44",
-        "target": "28"
-      },
-      {
-        "source": "45",
-        "target": "28"
-      },
-      {
-        "source": "47",
-        "target": "46"
-      },
-      {
-        "source": "48",
-        "target": "11"
-      },
-      {
-        "source": "48",
-        "target": "25"
-      },
-      {
-        "source": "48",
-        "target": "27"
-      },
-      {
-        "source": "48",
-        "target": "47"
-      },
-      {
-        "source": "49",
-        "target": "11"
-      },
-      {
-        "source": "49",
-        "target": "26"
-      },
-      {
-        "source": "50",
-        "target": "24"
-      },
-      {
-        "source": "50",
-        "target": "49"
-      },
-      {
-        "source": "51",
-        "target": "11"
-      },
-      {
-        "source": "51",
-        "target": "26"
-      },
-      {
-        "source": "51",
-        "target": "49"
-      },
-      {
-        "source": "52",
-        "target": "39"
-      },
-      {
-        "source": "52",
-        "target": "51"
-      },
-      {
-        "source": "53",
-        "target": "51"
-      },
-      {
-        "source": "54",
-        "target": "26"
-      },
-      {
-        "source": "54",
-        "target": "49"
-      },
-      {
-        "source": "54",
-        "target": "51"
-      },
-      {
-        "source": "55",
-        "target": "11"
-      },
-      {
-        "source": "55",
-        "target": "16"
-      },
-      {
-        "source": "55",
-        "target": "25"
-      },
-      {
-        "source": "55",
-        "target": "26"
-      },
-      {
-        "source": "55",
-        "target": "39"
-      },
-      {
-        "source": "55",
-        "target": "41"
-      },
-      {
-        "source": "55",
-        "target": "48"
-      },
-      {
-        "source": "55",
-        "target": "49"
-      },
-      {
-        "source": "55",
-        "target": "51"
-      },
-      {
-        "source": "55",
-        "target": "54"
-      },
-      {
-        "source": "56",
-        "target": "49"
-      },
-      {
-        "source": "56",
-        "target": "55"
-      },
-      {
-        "source": "57",
-        "target": "41"
-      },
-      {
-        "source": "57",
-        "target": "48"
-      },
-      {
-        "source": "57",
-        "target": "55"
-      },
-      {
-        "source": "58",
-        "target": "11"
-      },
-      {
-        "source": "58",
-        "target": "27"
-      },
-      {
-        "source": "58",
-        "target": "48"
-      },
-      {
-        "source": "58",
-        "target": "55"
-      },
-      {
-        "source": "58",
-        "target": "57"
-      },
-      {
-        "source": "59",
-        "target": "48"
-      },
-      {
-        "source": "59",
-        "target": "55"
-      },
-      {
-        "source": "59",
-        "target": "57"
-      },
-      {
-        "source": "59",
-        "target": "58"
-      },
-      {
-        "source": "60",
-        "target": "48"
-      },
-      {
-        "source": "60",
-        "target": "58"
-      },
-      {
-        "source": "60",
-        "target": "59"
-      },
-      {
-        "source": "61",
-        "target": "48"
-      },
-      {
-        "source": "61",
-        "target": "55"
-      },
-      {
-        "source": "61",
-        "target": "57"
-      },
-      {
-        "source": "61",
-        "target": "58"
-      },
-      {
-        "source": "61",
-        "target": "59"
-      },
-      {
-        "source": "61",
-        "target": "60"
-      },
-      {
-        "source": "62",
-        "target": "41"
-      },
-      {
-        "source": "62",
-        "target": "48"
-      },
-      {
-        "source": "62",
-        "target": "55"
-      },
-      {
-        "source": "62",
-        "target": "57"
-      },
-      {
-        "source": "62",
-        "target": "58"
-      },
-      {
-        "source": "62",
-        "target": "59"
-      },
-      {
-        "source": "62",
-        "target": "60"
-      },
-      {
-        "source": "62",
-        "target": "61"
-      },
-      {
-        "source": "63",
-        "target": "48"
-      },
-      {
-        "source": "63",
-        "target": "55"
-      },
-      {
-        "source": "63",
-        "target": "57"
-      },
-      {
-        "source": "63",
-        "target": "58"
-      },
-      {
-        "source": "63",
-        "target": "59"
-      },
-      {
-        "source": "63",
-        "target": "60"
-      },
-      {
-        "source": "63",
-        "target": "61"
-      },
-      {
-        "source": "63",
-        "target": "62"
-      },
-      {
-        "source": "64",
-        "target": "11"
-      },
-      {
-        "source": "64",
-        "target": "48"
-      },
-      {
-        "source": "64",
-        "target": "55"
-      },
-      {
-        "source": "64",
-        "target": "57"
-      },
-      {
-        "source": "64",
-        "target": "58"
-      },
-      {
-        "source": "64",
-        "target": "59"
-      },
-      {
-        "source": "64",
-        "target": "60"
-      },
-      {
-        "source": "64",
-        "target": "61"
-      },
-      {
-        "source": "64",
-        "target": "62"
-      },
-      {
-        "source": "64",
-        "target": "63"
-      },
-      {
-        "source": "65",
-        "target": "48"
-      },
-      {
-        "source": "65",
-        "target": "55"
-      },
-      {
-        "source": "65",
-        "target": "57"
-      },
-      {
-        "source": "65",
-        "target": "58"
-      },
-      {
-        "source": "65",
-        "target": "59"
-      },
-      {
-        "source": "65",
-        "target": "60"
-      },
-      {
-        "source": "65",
-        "target": "61"
-      },
-      {
-        "source": "65",
-        "target": "62"
-      },
-      {
-        "source": "65",
-        "target": "63"
-      },
-      {
-        "source": "65",
-        "target": "64"
-      },
-      {
-        "source": "66",
-        "target": "48"
-      },
-      {
-        "source": "66",
-        "target": "58"
-      },
-      {
-        "source": "66",
-        "target": "59"
-      },
-      {
-        "source": "66",
-        "target": "60"
-      },
-      {
-        "source": "66",
-        "target": "61"
-      },
-      {
-        "source": "66",
-        "target": "62"
-      },
-      {
-        "source": "66",
-        "target": "63"
-      },
-      {
-        "source": "66",
-        "target": "64"
-      },
-      {
-        "source": "66",
-        "target": "65"
-      },
-      {
-        "source": "67",
-        "target": "57"
-      },
-      {
-        "source": "68",
-        "target": "11"
-      },
-      {
-        "source": "68",
-        "target": "24"
-      },
-      {
-        "source": "68",
-        "target": "25"
-      },
-      {
-        "source": "68",
-        "target": "27"
-      },
-      {
-        "source": "68",
-        "target": "41"
-      },
-      {
-        "source": "68",
-        "target": "48"
-      },
-      {
-        "source": "69",
-        "target": "11"
-      },
-      {
-        "source": "69",
-        "target": "24"
-      },
-      {
-        "source": "69",
-        "target": "25"
-      },
-      {
-        "source": "69",
-        "target": "27"
-      },
-      {
-        "source": "69",
-        "target": "41"
-      },
-      {
-        "source": "69",
-        "target": "48"
-      },
-      {
-        "source": "69",
-        "target": "68"
-      },
-      {
-        "source": "70",
-        "target": "11"
-      },
-      {
-        "source": "70",
-        "target": "24"
-      },
-      {
-        "source": "70",
-        "target": "25"
-      },
-      {
-        "source": "70",
-        "target": "27"
-      },
-      {
-        "source": "70",
-        "target": "41"
-      },
-      {
-        "source": "70",
-        "target": "58"
-      },
-      {
-        "source": "70",
-        "target": "68"
-      },
-      {
-        "source": "70",
-        "target": "69"
-      },
-      {
-        "source": "71",
-        "target": "11"
-      },
-      {
-        "source": "71",
-        "target": "25"
-      },
-      {
-        "source": "71",
-        "target": "27"
-      },
-      {
-        "source": "71",
-        "target": "41"
-      },
-      {
-        "source": "71",
-        "target": "48"
-      },
-      {
-        "source": "71",
-        "target": "68"
-      },
-      {
-        "source": "71",
-        "target": "69"
-      },
-      {
-        "source": "71",
-        "target": "70"
-      },
-      {
-        "source": "72",
-        "target": "11"
-      },
-      {
-        "source": "72",
-        "target": "26"
-      },
-      {
-        "source": "72",
-        "target": "27"
-      },
-      {
-        "source": "73",
-        "target": "48"
-      },
-      {
-        "source": "74",
-        "target": "48"
-      },
-      {
-        "source": "74",
-        "target": "73"
-      },
-      {
-        "source": "75",
-        "target": "25"
-      },
-      {
-        "source": "75",
-        "target": "41"
-      },
-      {
-        "source": "75",
-        "target": "48"
-      },
-      {
-        "source": "75",
-        "target": "68"
-      },
-      {
-        "source": "75",
-        "target": "69"
-      },
-      {
-        "source": "75",
-        "target": "70"
-      },
-      {
-        "source": "75",
-        "target": "71"
-      },
-      {
-        "source": "76",
-        "target": "48"
-      },
-      {
-        "source": "76",
-        "target": "58"
-      },
-      {
-        "source": "76",
-        "target": "62"
-      },
-      {
-        "source": "76",
-        "target": "63"
-      },
-      {
-        "source": "76",
-        "target": "64"
-      },
-      {
-        "source": "76",
-        "target": "65"
-      },
-      {
-        "source": "76",
-        "target": "66"
-      }
-    ],
-    "categories": [
-      {
-        "name": "A"
-      },
-      {
-        "name": "B"
-      },
-      {
-        "name": "C"
-      },
-      {
-        "name": "D"
-      },
-      {
-        "name": "E"
-      },
-      {
-        "name": "F"
-      },
-      {
-        "name": "G"
-      },
-      {
-        "name": "H"
-      },
-      {
-        "name": "I"
-      }
-    ]
-  }
+  "link": [
+    {
+      "source": "Mei Tao",
+      "target": "Yao Ting",
+      "value": 13
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Albarqouni Shadi",
+      "value": 12
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Liao Haofu",
+      "value": 12
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Hongsheng",
+      "value": 11
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Tongliang",
+      "value": 10
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Tombari Federico",
+      "value": 10
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Timofte Radu",
+      "value": 9
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Pan Yingwei",
+      "value": 9
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Luo Ping",
+      "value": 8
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Xie Lingxi",
+      "value": 8
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Dai Dengxin",
+      "value": 8
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Yu Fisher",
+      "value": 8
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Wei",
+      "value": 8
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Ma Lin",
+      "value": 8
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Deng Cheng",
+      "value": 7
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Ravikumar Nishant",
+      "value": 7
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yu Jun",
+      "value": 7
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Syben Christopher",
+      "value": 7
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Chang",
+      "value": 7
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Luo Yong",
+      "value": 6
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Chao",
+      "value": 6
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Sheng Lu",
+      "value": 6
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Dong Xuanyi",
+      "value": 6
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zheng Liang",
+      "value": 6
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhu Linchao",
+      "value": 6
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Wang Dequan",
+      "value": 6
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Chen Hao",
+      "value": 6
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Ya",
+      "value": 6
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zuo Wangmeng",
+      "value": 6
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Shao Jing",
+      "value": 6
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Gao Jianfeng",
+      "value": 5
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yu Zhou",
+      "value": 5
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Carneiro Gustavo",
+      "value": 5
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Jing",
+      "value": 5
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Wei",
+      "value": 5
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wen Yonggang",
+      "value": 5
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wang Yanfeng",
+      "value": 5
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Reid Ian",
+      "value": 5
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Li Wen",
+      "value": 5
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Paudel Danda Pani",
+      "value": 5
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Saenko Kate",
+      "value": 5
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ji Rongrong",
+      "value": 5
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Rohrbach Anna",
+      "value": 5
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Yehao",
+      "value": 5
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Tao Dacheng",
+      "value": 5
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Wang Xiaobo",
+      "value": 5
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Deng Cheng",
+      "value": 5
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Shifeng",
+      "value": 5
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Vesal Sulaiman",
+      "value": 5
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Shi Hailin",
+      "value": 5
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Stimpel Bernhard",
+      "value": 5
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Breininger Katharina",
+      "value": 5
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhou S. Kevin",
+      "value": 5
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Lin Wei-An",
+      "value": 5
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Liu Yu",
+      "value": 5
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Shen Chunhua",
+      "value": 5
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Huang Qiuyuan",
+      "value": 5
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhang Ruimao",
+      "value": 5
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Garg Ravi",
+      "value": 4
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Xuelong",
+      "value": 4
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Do Thanh-Toan",
+      "value": 4
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Wu Jiqing",
+      "value": 4
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "De Brabandere Bert",
+      "value": 4
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Neven Davy",
+      "value": 4
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Xu Chunjing",
+      "value": 4
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Huang Zhiwu",
+      "value": 4
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Tian Zhi",
+      "value": 4
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Cai Qi-Zhi",
+      "value": 4
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Yan Youliang",
+      "value": 4
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Riess Christian",
+      "value": 4
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Baur Christoph",
+      "value": 4
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Ilic Slobodan",
+      "value": 4
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Schirrmacher Franziska",
+      "value": 4
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Pingping",
+      "value": 4
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Preuhs Alexander",
+      "value": 4
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Qiu Zhaofan",
+      "value": 4
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Christlein Vincent",
+      "value": 4
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Fu Weilin",
+      "value": 4
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang David",
+      "value": 4
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Cao Zisheng",
+      "value": 4
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Rezatofighi Hamid",
+      "value": 4
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Huang Shaoli",
+      "value": 4
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Chao",
+      "value": 3
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Jingyu",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Ding Changxing",
+      "value": 3
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Ouyang Wanli",
+      "value": 3
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Qi Guo-Jun",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Shi Qinfeng",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Liu Lingqiao",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Kang Guoliang",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Fu Huan",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zheng Zhedong",
+      "value": 3
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zeng Hui",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Shen Xu",
+      "value": 3
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang Kai",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Gao Xinbo",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Thoma Janine",
+      "value": 3
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Liu Jianzhuang",
+      "value": 3
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Yan Junjie",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Wu Yu",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Liu Ping",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "He Tong",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "He Yang",
+      "value": 3
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Fan Hehe",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Xianglong",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Jia Kui",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Peng",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Probst Thomas",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Sharma Vivek",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Ma Liqian",
+      "value": 3
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Wang Ruth",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Sakaridis Christos",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Gong Dong",
+      "value": 3
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Zhifeng",
+      "value": 3
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Shelhamer Evan",
+      "value": 3
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Ebrahimi Sayna",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Hecker Simon",
+      "value": 3
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Diba Ali",
+      "value": 3
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Wang Xin",
+      "value": 3
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Lei Yinjie",
+      "value": 3
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Paschali Magdalini",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Nekrasov Vladimir",
+      "value": 3
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Siheng",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Yifan",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Yin Wei",
+      "value": 3
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Lingqiao",
+      "value": 3
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wu Baoyuan",
+      "value": 3
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Bao Linchao",
+      "value": 3
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Unberath Mathias",
+      "value": 3
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Lu Huchuan",
+      "value": 3
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Roy Abhijit Guha",
+      "value": 3
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Fu Tianyu",
+      "value": 3
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Shen Tong",
+      "value": 3
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Manhart Michael",
+      "value": 3
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Tian Xinmei",
+      "value": 3
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Huang Yixing",
+      "value": 3
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Wang Shuo",
+      "value": 3
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Köhler Thomas",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Chen Zhe",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Tian Xinmei",
+      "value": 3
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Chao Hongyang",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Latif Yasir",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Dong Yongsheng",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Bradley Andrew P.",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Gong Mingming",
+      "value": 3
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Nicolaou Anguelos",
+      "value": 3
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Würfl Tobias",
+      "value": 3
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Fu Jianlong",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Gong Chen",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Lefei",
+      "value": 3
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Yang Zhengyuan",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Nekrasov Vladimir",
+      "value": 3
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Maicas Gabriel",
+      "value": 3
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Du Bo",
+      "value": 3
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Yu Nenghai",
+      "value": 3
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhou Hang",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Yuan Jianbo",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Chen Lele",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Huan Jun",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Jianfeng",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Ziwei",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Jian",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Pan Junting",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Guo Xiaoyang",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Nascimento Jacinto C.",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Shanshan",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Bian Jia-Wang",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhou Shaohua Kevin",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Wang Zihao",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Chaoyue",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Sadeghian Amir",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Diesner Jana",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Lin Liang",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Huo Jing",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Bin",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Liu Wei",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Xihui",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Yu",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Han Jiangfan",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Hongyang",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Qiao Yu",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Yikang",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Guan Tao",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Ma Lin",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhang Jingdan",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Luo Yawei",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xiong Haoyi",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Guo Yandong",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhang Songyang",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Hu Zhilan",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Chen Tianlang",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wei Wei",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhong Zhun",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Shao Wenqi",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Cui Yuhao",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Ge Yuying",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Georgoulis Stamatios",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "You Haoxuan",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Yu Jun",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Huang Qingming",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhang Xiao",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Li Shaozi",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Hu Jie",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Tian Qi",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Liu Hong",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Lu Quanmao",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Chen Yuhua",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Sun Shaoyan",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Tuytelaars Tinne",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Houqiang",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Kun",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Xu",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yan Chenggang",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Gong Dihong",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Luo Zhiming",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Proesmans Marc",
+      "value": 2
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yu Junqing",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Sun Xiaoshuai",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Agustsson Eirikur",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Erkun",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Azadi Samaneh",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Bian Jia-Wang",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Mian Ajmal",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Lu Jiwen",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Stiefelhagen Rainer",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Jia Xu",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Gonzalez Joseph E.",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Fayyaz Mohsen",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Maosen",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Chen Chaofeng",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Levi Elad",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Yongdong",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Cao Jiewei",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Devin Coline",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Cao Yuanzhouhan",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Pathak Deepak",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Caelles Sergi",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Shiliang",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Krähenbühl Philipp",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Efros Alexei A.",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Yu Zhou",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Mentzer Fabian",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Chhatkuli Ajad",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Sinha Samarth",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Acharya Dinesh",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Cheng Ming-Ming",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Van Gansbeke Wouter",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Xin",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhou Wengang",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhou Jie",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Xinlong",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Hendricks Lisa Anne",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Huang Hao-Zhi",
+      "value": 2
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Tschannen Michael",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Cao Zhiguo",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Tao Dacheng",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Gao Hang",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Qi Guo-Jun",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Shen Chunhua",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Simson Walter",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Brosh Eli",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Jingwen",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Hengel Anton van den",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Yao Hantao",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Lu Hao",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Herzig Roei",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wei Xiu-Shen",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Tzeng Eric",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Tong",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Lu Huchuan",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Hu Ronghang",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Feng Yang",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Wei",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Burns Kaylee",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Rupprecht Christian",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ni Bingbing",
+      "value": 2
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Pingping",
+      "value": 2
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Liu Zhuang",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wong Kwan-Yee K.",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Song Yibing",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Wachinger Christian",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Göbl Rüdiger",
+      "value": 2
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Cui Yuhao",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Akhtar Naveed",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Dhamo Helisa",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Aafaq Nayyer",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Fotouhi Javad",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Luo Wenhan",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Bairui",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Luo Jiebo",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Maier Andreas K.",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhou Wengang",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Ma Jiayi",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Amrehn Mario",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Thamm Florian",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Zhangyang",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Roser Philipp",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Guendel Sebastian",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Liu Wu",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Wei",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Laina Iro",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Seuret Mathias",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Yiheng",
+      "value": 2
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Hao",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yang Erkun",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Rackerseder Julia",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Ren Wenqi",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Birdal Tolga",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Bui Mai",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhu Rui",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Xinchao",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Xu Jun",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Gao Lei",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Liang Zhetong",
+      "value": 2
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Busam Benjamin",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "He Xiaodong",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Ngo Chong-Wah",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yang Jian",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang Pengchuan",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Meng Deyu",
+      "value": 2
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Bai Yalong",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Shao Ling",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Gao Yang",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Li Wenbin",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Xin",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yu Ting",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zheng Haitian",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Cai Jianrui",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Steidl Stefan",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xiong Wei",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Hoppe Elisabeth",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Wang Lei",
+      "value": 2
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Körzdörfer Gregor",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zha Zheng-Jun",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Doan Anh-Dzung",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Tian Dayong",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Jiang Ming",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Li Kejie",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Zhan Huangying",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zheng Heliang",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "An Jie",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Li Lida",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Li Weijian",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yang Jie",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Ma Jinwen",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Funka-Lea Gareth",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhao Rui",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Gong Dong",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Shi Shaoshuai",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Batmanghelich Kayhan",
+      "value": 2
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Feng Yang",
+      "value": 2
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Yin Guojun",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Xiao Rong",
+      "value": 2
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Lang Zhiqiang",
+      "value": 2
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Chen Hao",
+      "value": 2
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Qiming",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhang Liheng",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Cai Ming",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Lin Liang",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Kosaraju Vineet",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang Dongyu",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xia Yingce",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhou Bin",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Tran Toan",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Boyi",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Hui Zheng",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Huang Wenbing",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Rui",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Zhang Pingping",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Yixing",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Ren Dongwei",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Peng Cheng",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Fieguth Paul",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Yang Jie",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Tang Yuan Yan",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wu Yan-wen",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Wu Lingyun",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Corso Jason J.",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Shi Yahao",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Chin Tat-Jun",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Wentao",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Yu Yizhou",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Vogelsang Levon",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xie Bo",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Jakab Andras",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xia Gui-Song",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Jia Xu",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Tsagarakis Nikos G.",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhan Yibing",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Tang Yucheng",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Dharmasiri Thanuja",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhu Feida",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Chen Zhibo",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Wei Sining",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Spek Andrew",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "An Wangpeng",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Ji Rongrong",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Hosseinzadeh Mehdi",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Zhe",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Liao Shengcai",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhang Xingxing",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Ji Pan",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Gui Jie",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Li Dianqi",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xu Jinglin",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Peng Gao",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Yuan Xia",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Guan Naiyang",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Sun Ming-Ting",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Cheng Ke",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Chen Jie",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Snaauw Gerard",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Sheng",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Huaimin",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Liu Sen",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhao Qinping",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Milan Anton",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Rempfler Markus",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhang Jiarui",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Lin Kwan-Yee",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Caldwell Darwin G.",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "He Anfeng",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zeng Zhaoyang",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Huo Zhimin",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Yudian",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Jakab Andras",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Duan Nan",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Keze",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Su Jinsong",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Sun Hongbin",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Hoang Tuan",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Gao Fei",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Cheng Bowen",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Li Hongdong",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Lin Weisi",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Bakas Spyridon",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Wang Liwei",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Wang Chengyu",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Wu Yu-Huan",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Yang Ming-Hsuan",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Zhao Wentian",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zeng Xingyu",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Wang Naiyan",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Zhao",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Yang Fan",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Belongie Serge",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Tao Lingling",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Fan Jianping",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wu Xingming",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Sehnert William J.",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Bai Yeqi",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Martín-Martín Roberto",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yao Jinghan",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Hou Jingyi",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Cremers Daniel",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Yu Sijia",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Wilder Matt",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zhang Weiming",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Yang Xiaokang",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Andrychowicz Marcin",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Sun Xiaohang",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liu Wentao",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Salzmann Mathieu",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Cong Runmin",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Chen Weihai",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Fu Dengpan",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhou Luowei",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Jiang Zhengkai",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Jin Sheng",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Long Fuchen",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Zhang Haokui",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Maybank Stephen J.",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Chen Ziliang",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Qi Yayun",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Kumar Vijay",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xue Yumeng",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Hu Houdong",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Yu Jiahui",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Li Buyu",
+      "value": 1
+    },
+    {
+      "source": "Reid Ian",
+      "target": "Gilani Syed Zulqarnain",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Rempfler Markus",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Liu Fangyi",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Li Yuncheng",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zaborovsky Vladimir",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Li Ke",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Lv Pei",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Cai Bolun",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Ding Bo",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Chen Lin",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Qian Chen",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Ma Kede",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Bauer Stefan",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Guo Feng",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Jiang Lu",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Qiao Tingting",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhao Qian",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Wang Xiao",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Chen Dongdong",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhu Fengda",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Bai Shihao",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Mei Xue",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Peng Houwen",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Quan Ruijie",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Kan",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang Dong-dong",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Cheng Zhongwei",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Tang Xiaoou",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Sevilla-Lara Laura",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Bakas Spyridon",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Fu Yun",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Wang Liqiang",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Jue",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Timofte Radu",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Lin Jianxin",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Chen Wei",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xie De",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhou Shangchen",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Gao Peng",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yu Zhiding",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Fang",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhao Xiangyun",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Liu Ji",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Xu Chenliang",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Ye Yuting",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Song Li",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Jia Xixi",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Song You",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Xue Junxiao",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "He Fengxiang",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Chen Xipeng",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Yangmuzi",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Twigg Chris",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Tran Du",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Mou Yipeng",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Cao Xiangyong",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Jin Hailin",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Ma Tao",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Pan Pingbo",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Duan Lixin",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Dong Xiaoyi",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Wei Yunchao",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Dejing",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "He Zhenwei",
+      "value": 1
+    },
+    {
+      "source": "Luo Jiebo",
+      "target": "Gong Boqing",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Xu Xudong",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Zhang Pengfei",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ni Tianwei",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Lu Pan",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Wang Xiaohan",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Xinxu",
+      "value": 1
+    },
+    {
+      "source": "Zhang Lei",
+      "target": "Wang Xiumei",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Yang Jiancheng",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Peng Zhanglin",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yang Eunho",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Ya",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Liniger Alexander",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Jie",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Xu Yunqiu",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Yousefzadeh Rahman",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhou Yiyi",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Liang Mingyang",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Oramas Jose",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yu Haiyu",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Bauer Stefan",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Bai Song",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Zeiler Matthew",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Chenyu",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Qiang",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Hoi Steven",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Park Minseop",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Hou Junhui",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Dai Bo",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhu Minfeng",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Meng",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wen Chuan",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Lin Yutian",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wen Yuxin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Pollefeys Marc",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yuan Yuchen",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wen Bihan",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Gu Shuhang",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Yonghao",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Dodge Samuel",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Xu Xiangmin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Paul Matthieu",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Chen Xiaowu",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Peng Qinmu",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Chen Xiaoran",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wang Shuhui",
+      "value": 1
+    },
+    {
+      "source": "Wang Xiaogang",
+      "target": "Mao Jiageng",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Liu Yanbin",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Barnett Michael",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Gong Rui",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Xu Minghao",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Cheng Junjin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Anoosheh Asha",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhuang Bohan",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Kim Saehoon",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Wang Hao",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Moreno-Noguer Francesc",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Mu Yadong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Li Zhichao",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Feng Qianyu",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Hahner Martin",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wu Yanjun",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Shu Han",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Shu",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Lee Juho",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Wang Qin",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Pang Shanmin",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "You Mingyu",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Fanghui",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Tang Lang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Tian Lixun",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Feiszli Matt",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Cui Peng",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Yao Rui",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Zhou Feng",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Chongyi",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhan Huangying",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Li Peike",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Sharma Sanjeev",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "de Stoutz Etienne",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Su Chi",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhou Joey Tianyi",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Cui Lisha",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Mayer Christoph",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Li Ying",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Fu Yanwei",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Liu Weifeng",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Pumarola Albert",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Han Kai",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Yan Qingsen",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Yang Xiaodong",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Pont-Tuset Jordi",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Arbeláez Pablo",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ma Yike",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Li Hui",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Lu Bao-Liang",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Dhall Ankit",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Dai Enyan",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Wenhai",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Guo Rui",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Teng",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Lin Guosheng",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Jie",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Qi Guojun",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wu Jianxin",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Wang Ziwei",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "He Shengfeng",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Dong",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Hauptmann Alexander G",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Chen Zitian",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Xie Qiaokang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Chengxin",
+      "value": 1
+    },
+    {
+      "source": "Yang Yi",
+      "target": "Tan Xiao",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Paluri Manohar",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Luo Tiejian",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhao Tianqi",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Huang Xiaolin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Arzani M. Mahdi",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Liu Jinxian",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Akata Zeynep",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Xinyu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Sun Yu",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Yong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Li Lei",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Xu Sen-Zhe",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wang Yunhe",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Xiong Haipeng",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhou Lingyiqing",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Jia Xu",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Chen Yu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Kadar Ilan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Cheng Kun",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Congcong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Bai Xiao",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Gelly Sylvain",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Romero Andrés",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wu Jun",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Chi",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Park Jae Sung",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Ma Chao",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chi Lu",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Drummond Tom",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Gao Yuan",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Sun Qianru",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Pang Guansong",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhou Pan",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Maninis Kevis-Kokitsi",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Wanhua",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Park Dong Huk",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Xin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Zaech Jan-Nico",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Qiao Siyuan",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Lei Yinjie",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Feng Jiashi",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Siyuan",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Shukla Samarth",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Song Guoli",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Jie Zequn",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Bo",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Rohrbach Marcus",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Xin",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Li Guanju",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zheng Xiawu",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Ning",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Xu Songcen",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Xu",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Schiele Bernt",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Liu Yiheng",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Fu Yanwei",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Sanfeliu Alberto",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Zhikai",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Shen Xiaoyong",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Schönfeld Edgar",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Dong",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Montes Alberto",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Shen Tong",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Lavy Lev Yitzhak",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Ignatov Andrey",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Qi Honggang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Sun Peize",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Olshausen Bruno",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Tan Xiao",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "He Yong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Dharmasiri Thanuja",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Yin Zhichao",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Du Qiang",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Vandenhende Simon",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chang Jie",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Shi Qinfeng",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Andreas Jacob",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Yuan",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Yang Shiqiang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Teney Damien",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Jiao Jianbo",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Maurenbrecher Henrik",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Liheng",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Sun Changming",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Xu Huazhe",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Fan Nana",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Jian",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Yun",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zheng Feng",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Sattler Torsten",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ren Xiaoying",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Xie Enze",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Weizhong",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Luo Gen",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Dai Yutong",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhong Fangwei",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Wan Chengde",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wang Yan-Feng",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Le",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Duan Jiang",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wei Chen",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Huang Gao",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhao Mingbo",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Kobyshev Nikolay",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Linguo",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Yu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Hu Hou-Ning",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Daizong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Xiong Shengwu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Zhou Tinghui",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yan Junchi",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Obukhov Anton",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhao Yang",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Dunlap Lisa",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Chen Yajing",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Wang Kaili",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Qiu Guoping",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang ShengChuan",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Fayao",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Ma Yi-An",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Gall Jurgen",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Chang Wen",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Guyu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Isola Phillip",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Song Lingxue",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Jintao",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Spek Andrew",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Guo Xiaojie",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Yao Angela",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Yan Cheng",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Sun Qi",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Perazzi Federico",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Duan Kaiwen",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yuan Chun",
+      "value": 1
+    },
+    {
+      "source": "Van Gool Luc",
+      "target": "Li Yawei",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Naiyan",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Fang Michael Y. -S.",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Jia Jiaya",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Kang Bingyi",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Su Jinsong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Liu Liang",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Saito Kuniaki",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Liyan",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Vercauteren Tom",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Shengchuan",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Xu Huijuan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Jie",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Tian Guiyu",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Gao Yongsheng",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Sun Min",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Jiang Wenhao",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Taylor Russell",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Gao Yue",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Haokui",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Jinze",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Mollenhauer Martin",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Rui",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Xian Ke",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Lin Ji",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Liu Xingtong",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "He Zhuoxun",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Friedmann Matan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Muli",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Yu Kevin",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Hu Shi-Min",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Wiestler Benedikt",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Tianyu",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Kim Donghyun",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wu Fanzi",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Avetisyan Armen",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Feng Jianjiang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Mei Tao",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Sarhan Mhd Hasan",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Yongfei",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Lu Chris",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zou Fangyu",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Conjeti Sailesh",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ren Xutong",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Jiang Yuning",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Gasperini Stefano",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Du Dawei",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Wenjia",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Sun Mingjie",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Qiming",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Tran Arianne",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Hanting",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Tschannen Michael",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Chao",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Carneiro Gustavo",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Hong Xiaopeng",
+      "value": 1
+    },
+    {
+      "source": "Darrell Trevor",
+      "target": "Sclaroff Stan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Yunhui",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Wu Jie Ying",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Zhang Wei",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Yu-Xiong",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Ling Yonggen",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Kazeminia Salome",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Li Yifeng",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Forster Tess",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wei Longhui",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Shi Zenglin",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Kong Tao",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Su Hang",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yuan Di",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Bozhinoski Stevica",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Wang Chengjie",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Jing",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Ghazaei Ghazal",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Baochang",
+      "value": 1
+    },
+    {
+      "source": "Shen Chunhua",
+      "target": "Wang Hongyu",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Dai Feng",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Duan Lingyu",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Fink Laura",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Libo",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Meng",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Wang Ping",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Degel Markus A.",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zheng Huangjie",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Qian Xueming",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yuan Yitian",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Pearlman Rebecca",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhang Dongming",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Yuxi",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Shen Li",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Steiger Katja",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Deng Cheng",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Jianhao",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhou Wengang",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Song Tianyu",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Liu Lijie",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Chen Danlu",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Ye Qixiang",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Tang Jinhui",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Tan David Joseph",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Han Zhen",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Shen Hao",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Arroyo Diego Martin",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhu Wenwu",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Yixin",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Siddiqui Shayan",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Chen Shuaijun",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhao He",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Dong Yinpeng",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Nazarpour Kianoush",
+      "value": 1
+    },
+    {
+      "source": "Tian Qi",
+      "target": "Zhou Linjun",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Chen Jingwen",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Tongliang",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Nießner Matthias",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Patil Shreyas Malakarjun",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Liu Jiaying",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Ye Rongguang",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Maier Andreas",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Strumia Maddalena",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Xinyu",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Scheidhauer Klemens",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Taylor Russell",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Loy Chen Change",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Tomczack Agnieszka",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhu Li",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yuille Alan L.",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Hoffmann Mathis",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Hennersperger Christoph",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Wels Michael",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Xiong Yuanjun",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Shen Fumin",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Krönke Markus",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Marzahl Christian",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhang Xu-Yao",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Qi Guo-Jun",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Tateno Keisuke",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Scheel Oliver",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Buerhop-Lutz Claudia",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Shen Chunhua",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Tao Yunzhe",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Navarro Fernando",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Gibson Eli",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Long Fuchen",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Gilani Syed Zulqarnain",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Gao Cong",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Král Pavel",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Ouyang Wanli",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Fan Yanbo",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Taylor Giacomo",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Huang Xiaolin",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zeng Dan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Qiao",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Khakzar Ashkan",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Privalov Maxim",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Gong Dong",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Xie De",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Wang Yida",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Lauritsch Guenter",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Deng Jiajun",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Ronghua",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Coskun Huseyin",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Kortekaas Reinier",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Liu Yinglu",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Changsong",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Endres Jürgen",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Tang Jinhui",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Parida Abhijeet",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Felsner Lina",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Yang Xiaoyun",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Wald Johanna",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Xiuli",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Jiawan",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Lahiani Amal",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Pan Zhaoya",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Qiu Jie-Lin",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Bertram Christof A.",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Liu Zechun",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Belagiannis Vasileios",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Angelopoulou Elli",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zheng Zhaohui",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Barmaki Roghayeh",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Zhou Anfu",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Gao Xinbo",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Padoy Nicolas",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Yang Shuo",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Zhang Yifeng",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Zaech Jan-Nico",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Naderi Farzad",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Tang Yuanyan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Xu Yan",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Bier Bastian",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Jasensky Anne-Katherine",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Li Jia",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Chen Xinyuan",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Li Na",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Demiray Beatrice",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Ren Hui",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Li Jie",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Xu Xinxu",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Lin Dahua",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Chen Shiming",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Sun Peng",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Eslami Abouzar",
+      "value": 1
+    },
+    {
+      "source": "Maier Andreas",
+      "target": "Chaudhari Prashant",
+      "value": 1
+    },
+    {
+      "source": "Mei Tao",
+      "target": "Liu Xinchen",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Zhang Yu",
+      "value": 1
+    },
+    {
+      "source": "Liu Wei",
+      "target": "Shu Xiangbo",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Pölsterl Sebastian",
+      "value": 1
+    },
+    {
+      "source": "Tao Dacheng",
+      "target": "Reyes Mauricio",
+      "value": 1
+    },
+    {
+      "source": "Navab Nassir",
+      "target": "Casas Leslie",
+      "value": 1
+    }
+  ],
+  "node": [
+    {
+      "name": "Tao Dacheng",
+      "value": 75
+    },
+    {
+      "name": "Liu Wei",
+      "value": 43
+    },
+    {
+      "name": "Zhang Lei",
+      "value": 39
+    },
+    {
+      "name": "Van Gool Luc",
+      "value": 38
+    },
+    {
+      "name": "Navab Nassir",
+      "value": 37
+    },
+    {
+      "name": "Luo Jiebo",
+      "value": 37
+    },
+    {
+      "name": "Tian Qi",
+      "value": 33
+    },
+    {
+      "name": "Maier Andreas",
+      "value": 32
+    },
+    {
+      "name": "Wang Xiaogang",
+      "value": 31
+    },
+    {
+      "name": "Shen Chunhua",
+      "value": 30
+    },
+    {
+      "name": "Mei Tao",
+      "value": 29
+    },
+    {
+      "name": "Reid Ian",
+      "value": 28
+    },
+    {
+      "name": "Yang Yi",
+      "value": 27
+    },
+    {
+      "name": "Darrell Trevor",
+      "value": 27
+    },
+    {
+      "name": "Yang Ming-Hsuan",
+      "value": 27
+    },
+    {
+      "name": "Ji Rongrong",
+      "value": 27
+    },
+    {
+      "name": "Shao Ling",
+      "value": 26
+    },
+    {
+      "name": "Yan Junjie",
+      "value": 26
+    },
+    {
+      "name": "Ouyang Wanli",
+      "value": 26
+    },
+    {
+      "name": "Feng Jiashi",
+      "value": 24
+    },
+    {
+      "name": "Chen Hao",
+      "value": 23
+    },
+    {
+      "name": "Timofte Radu",
+      "value": 23
+    },
+    {
+      "name": "Loy Chen Change",
+      "value": 23
+    },
+    {
+      "name": "Zhang Wei",
+      "value": 22
+    },
+    {
+      "name": "Cheng Ming-Ming",
+      "value": 21
+    },
+    {
+      "name": "Lin Dahua",
+      "value": 21
+    },
+    {
+      "name": "Xie Lingxi",
+      "value": 19
+    },
+    {
+      "name": "Wang Zhangyang",
+      "value": 19
+    },
+    {
+      "name": "Li Xin",
+      "value": 19
+    },
+    {
+      "name": "Zuo Wangmeng",
+      "value": 19
+    },
+    {
+      "name": "Lin Liang",
+      "value": 19
+    },
+    {
+      "name": "Li Xuelong",
+      "value": 18
+    },
+    {
+      "name": "Pollefeys Marc",
+      "value": 18
+    },
+    {
+      "name": "Zhang Jian",
+      "value": 18
+    },
+    {
+      "name": "Wang Peng",
+      "value": 18
+    },
+    {
+      "name": "Wang Lei",
+      "value": 18
+    },
+    {
+      "name": "Yang Jie",
+      "value": 18
+    },
+    {
+      "name": "Li Jie",
+      "value": 18
+    },
+    {
+      "name": "Li Jia",
+      "value": 17
+    },
+    {
+      "name": "Yang Jian",
+      "value": 17
+    },
+    {
+      "name": "Wang Xin",
+      "value": 17
+    },
+    {
+      "name": "Luo Ping",
+      "value": 17
+    },
+    {
+      "name": "Zhang Chi",
+      "value": 17
+    },
+    {
+      "name": "Ma Lin",
+      "value": 17
+    },
+    {
+      "name": "Yao Ting",
+      "value": 17
+    },
+    {
+      "name": "Li Chao",
+      "value": 16
+    },
+    {
+      "name": "Li Bo",
+      "value": 16
+    },
+    {
+      "name": "Wang Dong",
+      "value": 16
+    },
+    {
+      "name": "Li Hongsheng",
+      "value": 16
+    },
+    {
+      "name": "Yang Xin",
+      "value": 16
+    },
+    {
+      "name": "Cremers Daniel",
+      "value": 15
+    },
+    {
+      "name": "Yang Fan",
+      "value": 15
+    },
+    {
+      "name": "Jia Kui",
+      "value": 15
+    },
+    {
+      "name": "Shen Xiaoyong",
+      "value": 15
+    },
+    {
+      "name": "Albarqouni Shadi",
+      "value": 14
+    },
+    {
+      "name": "Li Hongdong",
+      "value": 14
+    },
+    {
+      "name": "Liu Ziwei",
+      "value": 14
+    },
+    {
+      "name": "Zha Zheng-Jun",
+      "value": 14
+    },
+    {
+      "name": "Huang Qingming",
+      "value": 14
+    },
+    {
+      "name": "Saenko Kate",
+      "value": 14
+    },
+    {
+      "name": "Tombari Federico",
+      "value": 14
+    },
+    {
+      "name": "Deng Cheng",
+      "value": 14
+    },
+    {
+      "name": "Liu Yu",
+      "value": 14
+    },
+    {
+      "name": "Fu Yun",
+      "value": 14
+    },
+    {
+      "name": "Chen Zhibo",
+      "value": 14
+    },
+    {
+      "name": "Nießner Matthias",
+      "value": 14
+    },
+    {
+      "name": "Salzmann Mathieu",
+      "value": 13
+    },
+    {
+      "name": "Do Thanh-Toan",
+      "value": 13
+    },
+    {
+      "name": "Yuille Alan L.",
+      "value": 13
+    },
+    {
+      "name": "Liao Haofu",
+      "value": 13
+    },
+    {
+      "name": "Liu Tongliang",
+      "value": 13
+    },
+    {
+      "name": "Pan Yingwei",
+      "value": 13
+    },
+    {
+      "name": "Mian Ajmal",
+      "value": 12
+    },
+    {
+      "name": "Ilic Slobodan",
+      "value": 12
+    },
+    {
+      "name": "Zhang Shifeng",
+      "value": 12
+    },
+    {
+      "name": "Liu Hong",
+      "value": 12
+    },
+    {
+      "name": "Sun Xiaoshuai",
+      "value": 12
+    },
+    {
+      "name": "Wang Jue",
+      "value": 12
+    },
+    {
+      "name": "Schiele Bernt",
+      "value": 11
+    },
+    {
+      "name": "Qi Guo-Jun",
+      "value": 11
+    },
+    {
+      "name": "Zhang Yongdong",
+      "value": 11
+    },
+    {
+      "name": "Zheng Liang",
+      "value": 11
+    },
+    {
+      "name": "Zhang Jing",
+      "value": 11
+    },
+    {
+      "name": "Xia Gui-Song",
+      "value": 11
+    },
+    {
+      "name": "Lu Huchuan",
+      "value": 11
+    },
+    {
+      "name": "Yu Jun",
+      "value": 11
+    },
+    {
+      "name": "Belongie Serge",
+      "value": 11
+    },
+    {
+      "name": "Rohrbach Marcus",
+      "value": 11
+    },
+    {
+      "name": "Qiu Guoping",
+      "value": 11
+    },
+    {
+      "name": "Bai Song",
+      "value": 11
+    },
+    {
+      "name": "Gao Yang",
+      "value": 11
+    },
+    {
+      "name": "Carneiro Gustavo",
+      "value": 11
+    },
+    {
+      "name": "Wang Hao",
+      "value": 11
+    },
+    {
+      "name": "Vercauteren Tom",
+      "value": 11
+    },
+    {
+      "name": "Sattler Torsten",
+      "value": 11
+    },
+    {
+      "name": "Wei Wei",
+      "value": 11
+    },
+    {
+      "name": "Zhang Rui",
+      "value": 11
+    },
+    {
+      "name": "Gao Jianfeng",
+      "value": 11
+    },
+    {
+      "name": "Sun Min",
+      "value": 11
+    },
+    {
+      "name": "Hong Xiaopeng",
+      "value": 11
+    },
+    {
+      "name": "Zhang Baochang",
+      "value": 11
+    },
+    {
+      "name": "Qian Chen",
+      "value": 11
+    },
+    {
+      "name": "Yu Yizhou",
+      "value": 11
+    },
+    {
+      "name": "Fu Jianlong",
+      "value": 11
+    },
+    {
+      "name": "Qiao Yu",
+      "value": 11
+    },
+    {
+      "name": "Fu Yanwei",
+      "value": 10
+    },
+    {
+      "name": "Xu Chang",
+      "value": 10
+    },
+    {
+      "name": "Liu Lingqiao",
+      "value": 10
+    },
+    {
+      "name": "Gong Boqing",
+      "value": 10
+    },
+    {
+      "name": "Li Hui",
+      "value": 10
+    },
+    {
+      "name": "Ye Qixiang",
+      "value": 10
+    },
+    {
+      "name": "Zhang Tong",
+      "value": 10
+    },
+    {
+      "name": "Sheng Lu",
+      "value": 10
+    },
+    {
+      "name": "Zhou S. Kevin",
+      "value": 10
+    },
+    {
+      "name": "Han Kai",
+      "value": 10
+    },
+    {
+      "name": "Gao Xinbo",
+      "value": 9
+    },
+    {
+      "name": "Sclaroff Stan",
+      "value": 9
+    },
+    {
+      "name": "Zhang Ya",
+      "value": 9
+    },
+    {
+      "name": "Dai Dengxin",
+      "value": 9
+    },
+    {
+      "name": "Wang Shanshan",
+      "value": 9
+    },
+    {
+      "name": "Wang Xinchao",
+      "value": 9
+    },
+    {
+      "name": "Zhang Le",
+      "value": 9
+    },
+    {
+      "name": "Shi Hailin",
+      "value": 9
+    },
+    {
+      "name": "Liu Jiaying",
+      "value": 9
+    },
+    {
+      "name": "He Tong",
+      "value": 9
+    },
+    {
+      "name": "Tian Xinmei",
+      "value": 9
+    },
+    {
+      "name": "Efros Alexei A.",
+      "value": 8
+    },
+    {
+      "name": "Liu Yun",
+      "value": 8
+    },
+    {
+      "name": "Yu Fisher",
+      "value": 8
+    },
+    {
+      "name": "Wang Dequan",
+      "value": 8
+    },
+    {
+      "name": "Shen Fumin",
+      "value": 8
+    },
+    {
+      "name": "Chen Yu",
+      "value": 8
+    },
+    {
+      "name": "Hoang Tuan",
+      "value": 8
+    },
+    {
+      "name": "Tang Jinhui",
+      "value": 8
+    },
+    {
+      "name": "Wang Liwei",
+      "value": 8
+    },
+    {
+      "name": "Cao Zhiguo",
+      "value": 8
+    },
+    {
+      "name": "Reyes Mauricio",
+      "value": 8
+    },
+    {
+      "name": "Unberath Mathias",
+      "value": 8
+    },
+    {
+      "name": "Huang Xiaolin",
+      "value": 8
+    },
+    {
+      "name": "Shao Jing",
+      "value": 8
+    },
+    {
+      "name": "Wang Xiaobo",
+      "value": 8
+    },
+    {
+      "name": "Chao Hongyang",
+      "value": 8
+    },
+    {
+      "name": "Akhtar Naveed",
+      "value": 8
+    },
+    {
+      "name": "Du Bo",
+      "value": 8
+    },
+    {
+      "name": "Liu Jianzhuang",
+      "value": 8
+    },
+    {
+      "name": "Jia Jiaya",
+      "value": 8
+    },
+    {
+      "name": "Zhang Xiao",
+      "value": 8
+    },
+    {
+      "name": "Ni Bingbing",
+      "value": 8
+    },
+    {
+      "name": "Lu Jiwen",
+      "value": 8
+    },
+    {
+      "name": "Lin Wei-An",
+      "value": 8
+    },
+    {
+      "name": "Li Sheng",
+      "value": 8
+    },
+    {
+      "name": "Li Houqiang",
+      "value": 8
+    },
+    {
+      "name": "Sun Yu",
+      "value": 7
+    },
+    {
+      "name": "Hu Jie",
+      "value": 7
+    },
+    {
+      "name": "Yu Jiahui",
+      "value": 7
+    },
+    {
+      "name": "Tuytelaars Tinne",
+      "value": 7
+    },
+    {
+      "name": "Chen Jie",
+      "value": 7
+    },
+    {
+      "name": "Chin Tat-Jun",
+      "value": 7
+    },
+    {
+      "name": "Syben Christopher",
+      "value": 7
+    },
+    {
+      "name": "Zhang David",
+      "value": 7
+    },
+    {
+      "name": "Liu Ji",
+      "value": 7
+    },
+    {
+      "name": "Gao Peng",
+      "value": 7
+    },
+    {
+      "name": "Zhang Pengfei",
+      "value": 7
+    },
+    {
+      "name": "Jiang Lu",
+      "value": 7
+    },
+    {
+      "name": "Sharma Vivek",
+      "value": 7
+    },
+    {
+      "name": "Ravikumar Nishant",
+      "value": 7
+    },
+    {
+      "name": "Zhang Ruimao",
+      "value": 7
+    },
+    {
+      "name": "Meng Deyu",
+      "value": 7
+    },
+    {
+      "name": "Xu Chao",
+      "value": 7
+    },
+    {
+      "name": "Zhou Pan",
+      "value": 7
+    },
+    {
+      "name": "Wang Yanfeng",
+      "value": 7
+    },
+    {
+      "name": "Krähenbühl Philipp",
+      "value": 7
+    },
+    {
+      "name": "Corso Jason J.",
+      "value": 7
+    },
+    {
+      "name": "Liu Bin",
+      "value": 7
+    },
+    {
+      "name": "Zhang Yu",
+      "value": 7
+    },
+    {
+      "name": "Wang Shuo",
+      "value": 7
+    },
+    {
+      "name": "Liu Shu",
+      "value": 7
+    },
+    {
+      "name": "Shi Qinfeng",
+      "value": 7
+    },
+    {
+      "name": "Wang Liqiang",
+      "value": 7
+    },
+    {
+      "name": "Wang Xiao",
+      "value": 7
+    },
+    {
+      "name": "Tran Du",
+      "value": 7
+    },
+    {
+      "name": "Zhou Wengang",
+      "value": 7
+    },
+    {
+      "name": "Li Lei",
+      "value": 7
+    },
+    {
+      "name": "Zhou Jie",
+      "value": 7
+    },
+    {
+      "name": "Luo Yong",
+      "value": 7
+    },
+    {
+      "name": "Liu Xianglong",
+      "value": 7
+    },
+    {
+      "name": "Hengel Anton van den",
+      "value": 7
+    },
+    {
+      "name": "Xu Chunjing",
+      "value": 7
+    },
+    {
+      "name": "Li Yehao",
+      "value": 7
+    },
+    {
+      "name": "Li Wen",
+      "value": 6
+    },
+    {
+      "name": "Yu Zhou",
+      "value": 6
+    },
+    {
+      "name": "Ma Jiayi",
+      "value": 6
+    },
+    {
+      "name": "Lin Ji",
+      "value": 6
+    },
+    {
+      "name": "Zhang Pingping",
+      "value": 6
+    },
+    {
+      "name": "Rohrbach Anna",
+      "value": 6
+    },
+    {
+      "name": "Huang Qiuyuan",
+      "value": 6
+    },
+    {
+      "name": "Padoy Nicolas",
+      "value": 6
+    },
+    {
+      "name": "Peng Cheng",
+      "value": 6
+    },
+    {
+      "name": "Wu Jianxin",
+      "value": 6
+    },
+    {
+      "name": "Peng Qinmu",
+      "value": 6
+    },
+    {
+      "name": "Maicas Gabriel",
+      "value": 6
+    },
+    {
+      "name": "Birdal Tolga",
+      "value": 6
+    },
+    {
+      "name": "Liu Xingtong",
+      "value": 6
+    },
+    {
+      "name": "Riess Christian",
+      "value": 6
+    },
+    {
+      "name": "Zhang Kai",
+      "value": 6
+    },
+    {
+      "name": "Ma Jinwen",
+      "value": 6
+    },
+    {
+      "name": "Akata Zeynep",
+      "value": 6
+    },
+    {
+      "name": "Dong Xuanyi",
+      "value": 6
+    },
+    {
+      "name": "Zhao Yang",
+      "value": 6
+    },
+    {
+      "name": "Zhu Rui",
+      "value": 6
+    },
+    {
+      "name": "Wang Chengjie",
+      "value": 6
+    },
+    {
+      "name": "Lin Jianxin",
+      "value": 6
+    },
+    {
+      "name": "Yang Xiaodong",
+      "value": 6
+    },
+    {
+      "name": "Li Ke",
+      "value": 6
+    },
+    {
+      "name": "Tang Yucheng",
+      "value": 6
+    },
+    {
+      "name": "Kumar Vijay",
+      "value": 6
+    },
+    {
+      "name": "Yu Nenghai",
+      "value": 6
+    },
+    {
+      "name": "Wang Naiyan",
+      "value": 6
+    },
+    {
+      "name": "Hou Junhui",
+      "value": 6
+    },
+    {
+      "name": "Duan Lixin",
+      "value": 6
+    },
+    {
+      "name": "Gong Dong",
+      "value": 6
+    },
+    {
+      "name": "Liu Wentao",
+      "value": 6
+    },
+    {
+      "name": "Chen Zhe",
+      "value": 6
+    },
+    {
+      "name": "Zhu Linchao",
+      "value": 6
+    },
+    {
+      "name": "Gu Shuhang",
+      "value": 6
+    },
+    {
+      "name": "Qiu Zhaofan",
+      "value": 6
+    },
+    {
+      "name": "Perazzi Federico",
+      "value": 5
+    },
+    {
+      "name": "Paudel Danda Pani",
+      "value": 5
+    },
+    {
+      "name": "Ji Pan",
+      "value": 5
+    },
+    {
+      "name": "Garg Ravi",
+      "value": 5
+    },
+    {
+      "name": "Shen Li",
+      "value": 5
+    },
+    {
+      "name": "Wei Xiu-Shen",
+      "value": 5
+    },
+    {
+      "name": "Hu Shi-Min",
+      "value": 5
+    },
+    {
+      "name": "Lei Yinjie",
+      "value": 5
+    },
+    {
+      "name": "Lin Weisi",
+      "value": 5
+    },
+    {
+      "name": "Huo Jing",
+      "value": 5
+    },
+    {
+      "name": "Stimpel Bernhard",
+      "value": 5
+    },
+    {
+      "name": "Breininger Katharina",
+      "value": 5
+    },
+    {
+      "name": "Wang Jianfeng",
+      "value": 5
+    },
+    {
+      "name": "Jin Hailin",
+      "value": 5
+    },
+    {
+      "name": "Chen Dongdong",
+      "value": 5
+    },
+    {
+      "name": "Tang Xiaoou",
+      "value": 5
+    },
+    {
+      "name": "Vesal Sulaiman",
+      "value": 5
+    },
+    {
+      "name": "Li Jingyu",
+      "value": 5
+    },
+    {
+      "name": "Wang Keze",
+      "value": 5
+    },
+    {
+      "name": "Jin Sheng",
+      "value": 5
+    },
+    {
+      "name": "Zhou Shangchen",
+      "value": 5
+    },
+    {
+      "name": "Zhang Kun",
+      "value": 5
+    },
+    {
+      "name": "Zhang Qiang",
+      "value": 5
+    },
+    {
+      "name": "Gelly Sylvain",
+      "value": 5
+    },
+    {
+      "name": "Liu Ping",
+      "value": 5
+    },
+    {
+      "name": "Wu Baoyuan",
+      "value": 5
+    },
+    {
+      "name": "Yan Junchi",
+      "value": 5
+    },
+    {
+      "name": "Huang Wenbing",
+      "value": 5
+    },
+    {
+      "name": "Lin Guosheng",
+      "value": 5
+    },
+    {
+      "name": "Gibson Eli",
+      "value": 5
+    },
+    {
+      "name": "Sun Qianru",
+      "value": 5
+    },
+    {
+      "name": "Wong Kwan-Yee K.",
+      "value": 5
+    },
+    {
+      "name": "Chen Yuhua",
+      "value": 5
+    },
+    {
+      "name": "Moreno-Noguer Francesc",
+      "value": 5
+    },
+    {
+      "name": "Gong Chen",
+      "value": 5
+    },
+    {
+      "name": "Chen Xu",
+      "value": 5
+    },
+    {
+      "name": "Liu Wu",
+      "value": 5
+    },
+    {
+      "name": "Taylor Russell",
+      "value": 5
+    },
+    {
+      "name": "Zhou Joey Tianyi",
+      "value": 5
+    },
+    {
+      "name": "Guo Xiaojie",
+      "value": 5
+    },
+    {
+      "name": "Zhang Jiawan",
+      "value": 5
+    },
+    {
+      "name": "Stiefelhagen Rainer",
+      "value": 5
+    },
+    {
+      "name": "Tian Zhi",
+      "value": 5
+    },
+    {
+      "name": "Ma Chao",
+      "value": 5
+    },
+    {
+      "name": "Wen Yonggang",
+      "value": 5
+    },
+    {
+      "name": "Su Hang",
+      "value": 5
+    },
+    {
+      "name": "Chen Siheng",
+      "value": 5
+    },
+    {
+      "name": "Du Dawei",
+      "value": 5
+    },
+    {
+      "name": "Dong Yongsheng",
+      "value": 5
+    },
+    {
+      "name": "Wang Shuhui",
+      "value": 5
+    },
+    {
+      "name": "Guo Yandong",
+      "value": 5
+    },
+    {
+      "name": "Bian Jia-Wang",
+      "value": 5
+    },
+    {
+      "name": "Wang Jingwen",
+      "value": 5
+    },
+    {
+      "name": "Zhang Xingxing",
+      "value": 5
+    },
+    {
+      "name": "Gao Fei",
+      "value": 4
+    },
+    {
+      "name": "Gilani Syed Zulqarnain",
+      "value": 4
+    },
+    {
+      "name": "Huang Shaoli",
+      "value": 4
+    },
+    {
+      "name": "Zhang Shiliang",
+      "value": 4
+    },
+    {
+      "name": "Baur Christoph",
+      "value": 4
+    },
+    {
+      "name": "Yan Chenggang",
+      "value": 4
+    },
+    {
+      "name": "Ren Dongwei",
+      "value": 4
+    },
+    {
+      "name": "Wu Jiqing",
+      "value": 4
+    },
+    {
+      "name": "Huang Zhiwu",
+      "value": 4
+    },
+    {
+      "name": "Cheng Bowen",
+      "value": 4
+    },
+    {
+      "name": "Chen Xin",
+      "value": 4
+    },
+    {
+      "name": "Tschannen Michael",
+      "value": 4
+    },
+    {
+      "name": "Schirrmacher Franziska",
+      "value": 4
+    },
+    {
+      "name": "He Xiaodong",
+      "value": 4
+    },
+    {
+      "name": "Hu Houdong",
+      "value": 4
+    },
+    {
+      "name": "Nascimento Jacinto C.",
+      "value": 4
+    },
+    {
+      "name": "Jia Xu",
+      "value": 4
+    },
+    {
+      "name": "Xian Ke",
+      "value": 4
+    },
+    {
+      "name": "Gonzalez Joseph E.",
+      "value": 4
+    },
+    {
+      "name": "Christlein Vincent",
+      "value": 4
+    },
+    {
+      "name": "Peng Zhanglin",
+      "value": 4
+    },
+    {
+      "name": "Sun Hongbin",
+      "value": 4
+    },
+    {
+      "name": "Pathak Deepak",
+      "value": 4
+    },
+    {
+      "name": "Ebrahimi Sayna",
+      "value": 4
+    },
+    {
+      "name": "Zhou Hang",
+      "value": 4
+    },
+    {
+      "name": "Xu Jun",
+      "value": 4
+    },
+    {
+      "name": "Zhao Qian",
+      "value": 4
+    },
+    {
+      "name": "Mayer Christoph",
+      "value": 4
+    },
+    {
+      "name": "Qi Honggang",
+      "value": 4
+    },
+    {
+      "name": "Luo Wenhan",
+      "value": 4
+    },
+    {
+      "name": "Kang Guoliang",
+      "value": 4
+    },
+    {
+      "name": "Shao Wenqi",
+      "value": 4
+    },
+    {
+      "name": "Drummond Tom",
+      "value": 4
+    },
+    {
+      "name": "Huang Gao",
+      "value": 4
+    },
+    {
+      "name": "Sun Mingjie",
+      "value": 4
+    },
+    {
+      "name": "Yuan Chun",
+      "value": 4
+    },
+    {
+      "name": "Zheng Feng",
+      "value": 4
+    },
+    {
+      "name": "Liu Yifan",
+      "value": 4
+    },
+    {
+      "name": "Rempfler Markus",
+      "value": 4
+    },
+    {
+      "name": "Chen Wei",
+      "value": 4
+    },
+    {
+      "name": "Gong Mingming",
+      "value": 4
+    },
+    {
+      "name": "Li Hongyang",
+      "value": 4
+    },
+    {
+      "name": "Cai Qi-Zhi",
+      "value": 4
+    },
+    {
+      "name": "Wei Yunchao",
+      "value": 4
+    },
+    {
+      "name": "Liu Yuan",
+      "value": 4
+    },
+    {
+      "name": "Isola Phillip",
+      "value": 4
+    },
+    {
+      "name": "Rupprecht Christian",
+      "value": 4
+    },
+    {
+      "name": "Yao Angela",
+      "value": 4
+    },
+    {
+      "name": "Kong Tao",
+      "value": 4
+    },
+    {
+      "name": "Li Yuncheng",
+      "value": 4
+    },
+    {
+      "name": "Tan Xiao",
+      "value": 4
+    },
+    {
+      "name": "Xu Chenliang",
+      "value": 4
+    },
+    {
+      "name": "Wang Yu-Xiong",
+      "value": 4
+    },
+    {
+      "name": "Fu Tianyu",
+      "value": 4
+    },
+    {
+      "name": "Belagiannis Vasileios",
+      "value": 4
+    },
+    {
+      "name": "Yang Xu",
+      "value": 4
+    },
+    {
+      "name": "Yang Shuo",
+      "value": 4
+    },
+    {
+      "name": "Rezatofighi Hamid",
+      "value": 4
+    },
+    {
+      "name": "Martín-Martín Roberto",
+      "value": 4
+    },
+    {
+      "name": "Jiang Yuning",
+      "value": 4
+    },
+    {
+      "name": "De Brabandere Bert",
+      "value": 4
+    },
+    {
+      "name": "Neven Davy",
+      "value": 4
+    },
+    {
+      "name": "Chen Lin",
+      "value": 4
+    },
+    {
+      "name": "Xiong Shengwu",
+      "value": 4
+    },
+    {
+      "name": "Shi Zenglin",
+      "value": 4
+    },
+    {
+      "name": "Shen Hao",
+      "value": 4
+    },
+    {
+      "name": "Yan Youliang",
+      "value": 4
+    },
+    {
+      "name": "Cao Zisheng",
+      "value": 4
+    },
+    {
+      "name": "Yang Xiaokang",
+      "value": 4
+    },
+    {
+      "name": "Feiszli Matt",
+      "value": 4
+    },
+    {
+      "name": "Ngo Chong-Wah",
+      "value": 4
+    },
+    {
+      "name": "Zhang Songyang",
+      "value": 4
+    },
+    {
+      "name": "Jiang Ming",
+      "value": 4
+    },
+    {
+      "name": "Seuret Mathias",
+      "value": 4
+    },
+    {
+      "name": "Fu Weilin",
+      "value": 4
+    },
+    {
+      "name": "Wang Yunhe",
+      "value": 4
+    },
+    {
+      "name": "Preuhs Alexander",
+      "value": 4
+    },
+    {
+      "name": "Shen Xu",
+      "value": 4
+    },
+    {
+      "name": "Yao Hantao",
+      "value": 3
+    },
+    {
+      "name": "Zheng Zhedong",
+      "value": 3
+    },
+    {
+      "name": "Wu Yu",
+      "value": 3
+    },
+    {
+      "name": "Thoma Janine",
+      "value": 3
+    },
+    {
+      "name": "Shelhamer Evan",
+      "value": 3
+    },
+    {
+      "name": "Fan Jianping",
+      "value": 3
+    },
+    {
+      "name": "Sakaridis Christos",
+      "value": 3
+    },
+    {
+      "name": "Caldwell Darwin G.",
+      "value": 3
+    },
+    {
+      "name": "Pang Shanmin",
+      "value": 3
+    },
+    {
+      "name": "Zhu Wenwu",
+      "value": 3
+    },
+    {
+      "name": "Doan Anh-Dzung",
+      "value": 3
+    },
+    {
+      "name": "Ren Wenqi",
+      "value": 3
+    },
+    {
+      "name": "Agustsson Eirikur",
+      "value": 3
+    },
+    {
+      "name": "Liu Qiao",
+      "value": 3
+    },
+    {
+      "name": "Köhler Thomas",
+      "value": 3
+    },
+    {
+      "name": "Fieguth Paul",
+      "value": 3
+    },
+    {
+      "name": "Huang Hao-Zhi",
+      "value": 3
+    },
+    {
+      "name": "Würfl Tobias",
+      "value": 3
+    },
+    {
+      "name": "Wiestler Benedikt",
+      "value": 3
+    },
+    {
+      "name": "Paluri Manohar",
+      "value": 3
+    },
+    {
+      "name": "Shu Xiangbo",
+      "value": 3
+    },
+    {
+      "name": "Zhang Shengchuan",
+      "value": 3
+    },
+    {
+      "name": "Bradley Andrew P.",
+      "value": 3
+    },
+    {
+      "name": "Ma Liqian",
+      "value": 3
+    },
+    {
+      "name": "Wang Ruth",
+      "value": 3
+    },
+    {
+      "name": "Qi Guojun",
+      "value": 3
+    },
+    {
+      "name": "Nicolaou Anguelos",
+      "value": 3
+    },
+    {
+      "name": "Diba Ali",
+      "value": 3
+    },
+    {
+      "name": "Liu Weifeng",
+      "value": 3
+    },
+    {
+      "name": "Sadeghian Amir",
+      "value": 3
+    },
+    {
+      "name": "Xu Yan",
+      "value": 3
+    },
+    {
+      "name": "Laina Iro",
+      "value": 3
+    },
+    {
+      "name": "Gao Cong",
+      "value": 3
+    },
+    {
+      "name": "He Yang",
+      "value": 3
+    },
+    {
+      "name": "Nekrasov Vladimir",
+      "value": 3
+    },
+    {
+      "name": "Latif Yasir",
+      "value": 3
+    },
+    {
+      "name": "Liu Zhuang",
+      "value": 3
+    },
+    {
+      "name": "Song Yibing",
+      "value": 3
+    },
+    {
+      "name": "He Shengfeng",
+      "value": 3
+    },
+    {
+      "name": "Zhuang Bohan",
+      "value": 3
+    },
+    {
+      "name": "Wang Huaimin",
+      "value": 3
+    },
+    {
+      "name": "Wang Ziwei",
+      "value": 3
+    },
+    {
+      "name": "Bakas Spyridon",
+      "value": 3
+    },
+    {
+      "name": "Arbelaez Pablo",
+      "value": 3
+    },
+    {
+      "name": "Batmanghelich Kayhan",
+      "value": 3
+    },
+    {
+      "name": "Ding Changxing",
+      "value": 3
+    },
+    {
+      "name": "Fu Huan",
+      "value": 3
+    },
+    {
+      "name": "Guo Rui",
+      "value": 3
+    },
+    {
+      "name": "Yang Zhengyuan",
+      "value": 3
+    },
+    {
+      "name": "Busam Benjamin",
+      "value": 3
+    },
+    {
+      "name": "Herzig Roei",
+      "value": 3
+    },
+    {
+      "name": "Probst Thomas",
+      "value": 3
+    },
+    {
+      "name": "You Haoxuan",
+      "value": 3
+    },
+    {
+      "name": "Hoi Steven",
+      "value": 3
+    },
+    {
+      "name": "Zhou Luowei",
+      "value": 3
+    },
+    {
+      "name": "Li Wenbin",
+      "value": 3
+    },
+    {
+      "name": "Li Xiuli",
+      "value": 3
+    },
+    {
+      "name": "Hecker Simon",
+      "value": 3
+    },
+    {
+      "name": "Sevilla-Lara Laura",
+      "value": 3
+    },
+    {
+      "name": "Zhang Liheng",
+      "value": 3
+    },
+    {
+      "name": "Wang Bairui",
+      "value": 3
+    },
+    {
+      "name": "Jiang Wenhao",
+      "value": 3
+    },
+    {
+      "name": "Roy Abhijit Guha",
+      "value": 3
+    },
+    {
+      "name": "Wachinger Christian",
+      "value": 3
+    },
+    {
+      "name": "Xia Yingce",
+      "value": 3
+    },
+    {
+      "name": "Liu Sen",
+      "value": 3
+    },
+    {
+      "name": "Guo Xiaoyang",
+      "value": 3
+    },
+    {
+      "name": "Wang Wenhai",
+      "value": 3
+    },
+    {
+      "name": "Li Buyu",
+      "value": 3
+    },
+    {
+      "name": "Sanfeliu Alberto",
+      "value": 3
+    },
+    {
+      "name": "Zeng Hui",
+      "value": 3
+    },
+    {
+      "name": "Li Yikang",
+      "value": 3
+    },
+    {
+      "name": "Zhong Zhun",
+      "value": 3
+    },
+    {
+      "name": "Luo Zhiming",
+      "value": 3
+    },
+    {
+      "name": "Li Shaozi",
+      "value": 3
+    },
+    {
+      "name": "Teney Damien",
+      "value": 3
+    },
+    {
+      "name": "Zhang Lefei",
+      "value": 3
+    },
+    {
+      "name": "Dong Yinpeng",
+      "value": 3
+    },
+    {
+      "name": "Paschali Magdalini",
+      "value": 3
+    },
+    {
+      "name": "Jiao Jianbo",
+      "value": 3
+    },
+    {
+      "name": "Bao Linchao",
+      "value": 3
+    },
+    {
+      "name": "Li Zhifeng",
+      "value": 3
+    },
+    {
+      "name": "Mu Yadong",
+      "value": 3
+    },
+    {
+      "name": "Zhang Libo",
+      "value": 3
+    },
+    {
+      "name": "Wu Yanjun",
+      "value": 3
+    },
+    {
+      "name": "Ma Kede",
+      "value": 3
+    },
+    {
+      "name": "Wang Wenjia",
+      "value": 3
+    },
+    {
+      "name": "Fan Hehe",
+      "value": 3
+    },
+    {
+      "name": "Shen Tong",
+      "value": 3
+    },
+    {
+      "name": "Zhao Rui",
+      "value": 3
+    },
+    {
+      "name": "Duan Nan",
+      "value": 3
+    },
+    {
+      "name": "Chen Lele",
+      "value": 3
+    },
+    {
+      "name": "Guendel Sebastian",
+      "value": 3
+    },
+    {
+      "name": "Yuan Jianbo",
+      "value": 3
+    },
+    {
+      "name": "Bai Xiao",
+      "value": 3
+    },
+    {
+      "name": "Li Ying",
+      "value": 3
+    },
+    {
+      "name": "Zeng Zhaoyang",
+      "value": 3
+    },
+    {
+      "name": "Yin Wei",
+      "value": 3
+    },
+    {
+      "name": "Cao Jiewei",
+      "value": 3
+    },
+    {
+      "name": "Yang Xiaoyun",
+      "value": 3
+    },
+    {
+      "name": "Tzeng Eric",
+      "value": 3
+    },
+    {
+      "name": "Zeng Dan",
+      "value": 3
+    },
+    {
+      "name": "Zhang Haokui",
+      "value": 3
+    },
+    {
+      "name": "Gao Yongsheng",
+      "value": 3
+    },
+    {
+      "name": "Huang Yixing",
+      "value": 3
+    },
+    {
+      "name": "Manhart Michael",
+      "value": 3
+    },
+    {
+      "name": "Wang Ping",
+      "value": 3
+    },
+    {
+      "name": "Xu Zhe",
+      "value": 2
+    },
+    {
+      "name": "Wen Bihan",
+      "value": 2
+    },
+    {
+      "name": "Fotouhi Javad",
+      "value": 2
+    },
+    {
+      "name": "Dai Feng",
+      "value": 2
+    },
+    {
+      "name": "Ma Yike",
+      "value": 2
+    },
+    {
+      "name": "Hu Zhilan",
+      "value": 2
+    },
+    {
+      "name": "Acharya Dinesh",
+      "value": 2
+    },
+    {
+      "name": "Wang Chaoyue",
+      "value": 2
+    },
+    {
+      "name": "Li Jintao",
+      "value": 2
+    },
+    {
+      "name": "Tsagarakis Nikos G.",
+      "value": 2
+    },
+    {
+      "name": "Patil Shreyas Malakarjun",
+      "value": 2
+    },
+    {
+      "name": "Cui Peng",
+      "value": 2
+    },
+    {
+      "name": "Li Boyi",
+      "value": 2
+    },
+    {
+      "name": "Oramas Jose",
+      "value": 2
+    },
+    {
+      "name": "Wang Kaili",
+      "value": 2
+    },
+    {
+      "name": "Mentzer Fabian",
+      "value": 2
+    },
+    {
+      "name": "Zhao Mingbo",
+      "value": 2
+    },
+    {
+      "name": "Ye Yuting",
+      "value": 2
+    },
+    {
+      "name": "Maier Andreas K.",
+      "value": 2
+    },
+    {
+      "name": "Wang Hongyu",
+      "value": 2
+    },
+    {
+      "name": "Cong Runmin",
+      "value": 2
+    },
+    {
+      "name": "Burns Kaylee",
+      "value": 2
+    },
+    {
+      "name": "Hendricks Lisa Anne",
+      "value": 2
+    },
+    {
+      "name": "Navarro Fernando",
+      "value": 2
+    },
+    {
+      "name": "Conjeti Sailesh",
+      "value": 2
+    },
+    {
+      "name": "Yu Zhiding",
+      "value": 2
+    },
+    {
+      "name": "Chen Zitian",
+      "value": 2
+    },
+    {
+      "name": "Bui Mai",
+      "value": 2
+    },
+    {
+      "name": "Georgoulis Stamatios",
+      "value": 2
+    },
+    {
+      "name": "Cao Yuanzhouhan",
+      "value": 2
+    },
+    {
+      "name": "Sun Qi",
+      "value": 2
+    },
+    {
+      "name": "Fayyaz Mohsen",
+      "value": 2
+    },
+    {
+      "name": "Martin-Martin Roberto",
+      "value": 2
+    },
+    {
+      "name": "Chen Ziliang",
+      "value": 2
+    },
+    {
+      "name": "Ge Yuying",
+      "value": 2
+    },
+    {
+      "name": "Azadi Samaneh",
+      "value": 2
+    },
+    {
+      "name": "Hu Ronghang",
+      "value": 2
+    },
+    {
+      "name": "Dhamo Helisa",
+      "value": 2
+    },
+    {
+      "name": "Yin Zhichao",
+      "value": 2
+    },
+    {
+      "name": "Sun Peng",
+      "value": 2
+    },
+    {
+      "name": "Zhong Fangwei",
+      "value": 2
+    },
+    {
+      "name": "Wang Kan",
+      "value": 2
+    },
+    {
+      "name": "Zhou Tinghui",
+      "value": 2
+    },
+    {
+      "name": "Dharmasiri Thanuja",
+      "value": 2
+    },
+    {
+      "name": "Yu Sijia",
+      "value": 2
+    },
+    {
+      "name": "Li Kejie",
+      "value": 2
+    },
+    {
+      "name": "Luo Yawei",
+      "value": 2
+    },
+    {
+      "name": "Guan Tao",
+      "value": 2
+    },
+    {
+      "name": "Yu Junqing",
+      "value": 2
+    },
+    {
+      "name": "Ding Bo",
+      "value": 2
+    },
+    {
+      "name": "Liu Zechun",
+      "value": 2
+    },
+    {
+      "name": "Cheng Kun",
+      "value": 2
+    },
+    {
+      "name": "Devin Coline",
+      "value": 2
+    },
+    {
+      "name": "Wang Yan-Feng",
+      "value": 2
+    },
+    {
+      "name": "Li Weijian",
+      "value": 2
+    },
+    {
+      "name": "Hu Hou-Ning",
+      "value": 2
+    },
+    {
+      "name": "Feng Yang",
+      "value": 2
+    },
+    {
+      "name": "Qiao Siyuan",
+      "value": 2
+    },
+    {
+      "name": "Su Chi",
+      "value": 2
+    },
+    {
+      "name": "Gao Hang",
+      "value": 2
+    },
+    {
+      "name": "Levi Elad",
+      "value": 2
+    },
+    {
+      "name": "Xu Huijuan",
+      "value": 2
+    },
+    {
+      "name": "Brosh Eli",
+      "value": 2
+    },
+    {
+      "name": "Sinha Samarth",
+      "value": 2
+    },
+    {
+      "name": "Funka-Lea Gareth",
+      "value": 2
+    },
+    {
+      "name": "Zhou Shaohua Kevin",
+      "value": 2
+    },
+    {
+      "name": "Chhatkuli Ajad",
+      "value": 2
+    },
+    {
+      "name": "Shi Shaoshuai",
+      "value": 2
+    },
+    {
+      "name": "Saito Kuniaki",
+      "value": 2
+    },
+    {
+      "name": "Chen Chaofeng",
+      "value": 2
+    },
+    {
+      "name": "Jiang Zhengkai",
+      "value": 2
+    },
+    {
+      "name": "Park Jae Sung",
+      "value": 2
+    },
+    {
+      "name": "Amrehn Mario",
+      "value": 2
+    },
+    {
+      "name": "Steidl Stefan",
+      "value": 2
+    },
+    {
+      "name": "Zhang Weiming",
+      "value": 2
+    },
+    {
+      "name": "Qiao Tingting",
+      "value": 2
+    },
+    {
+      "name": "van Gool Luc",
+      "value": 2
+    },
+    {
+      "name": "Peng Houwen",
+      "value": 2
+    },
+    {
+      "name": "Park Dong Huk",
+      "value": 2
+    },
+    {
+      "name": "Liu Xinchen",
+      "value": 2
+    },
+    {
+      "name": "Zhang Meng",
+      "value": 2
+    },
+    {
+      "name": "Liu Meng",
+      "value": 2
+    },
+    {
+      "name": "Li Chongyi",
+      "value": 2
+    },
+    {
+      "name": "Xiong Wei",
+      "value": 2
+    },
+    {
+      "name": "Van Gansbeke Wouter",
+      "value": 2
+    },
+    {
+      "name": "Proesmans Marc",
+      "value": 2
+    },
+    {
+      "name": "Bai Yalong",
+      "value": 2
+    },
+    {
+      "name": "Zhu Li",
+      "value": 2
+    },
+    {
+      "name": "Pölsterl Sebastian",
+      "value": 2
+    },
+    {
+      "name": "Xie De",
+      "value": 2
+    },
+    {
+      "name": "Xiong Yuanjun",
+      "value": 2
+    },
+    {
+      "name": "Xie Qiaokang",
+      "value": 2
+    },
+    {
+      "name": "Liu Yiheng",
+      "value": 2
+    },
+    {
+      "name": "Wang Xinlong",
+      "value": 2
+    },
+    {
+      "name": "Aafaq Nayyer",
+      "value": 2
+    },
+    {
+      "name": "Zhang Pengchuan",
+      "value": 2
+    },
+    {
+      "name": "Li Siyuan",
+      "value": 2
+    },
+    {
+      "name": "Zhan Huangying",
+      "value": 2
+    },
+    {
+      "name": "Liu Xihui",
+      "value": 2
+    },
+    {
+      "name": "Wang Zihao",
+      "value": 2
+    },
+    {
+      "name": "Pan Junting",
+      "value": 2
+    },
+    {
+      "name": "Liu Fayao",
+      "value": 2
+    },
+    {
+      "name": "Yao Rui",
+      "value": 2
+    },
+    {
+      "name": "Zhang Jingdan",
+      "value": 2
+    },
+    {
+      "name": "Zhou Bin",
+      "value": 2
+    },
+    {
+      "name": "Zhao Qinping",
+      "value": 2
+    },
+    {
+      "name": "Li Yixin",
+      "value": 2
+    },
+    {
+      "name": "Zheng Heliang",
+      "value": 2
+    },
+    {
+      "name": "Chen Chang Wen",
+      "value": 2
+    },
+    {
+      "name": "Lin Kwan-Yee",
+      "value": 2
+    },
+    {
+      "name": "Lang Zhiqiang",
+      "value": 2
+    },
+    {
+      "name": "Dai Bo",
+      "value": 2
+    },
+    {
+      "name": "Caelles Sergi",
+      "value": 2
+    },
+    {
+      "name": "Pumarola Albert",
+      "value": 2
+    },
+    {
+      "name": "Xie Enze",
+      "value": 2
+    },
+    {
+      "name": "Cai Jianrui",
+      "value": 2
+    },
+    {
+      "name": "Yin Guojun",
+      "value": 2
+    },
+    {
+      "name": "Zhu Feida",
+      "value": 2
+    },
+    {
+      "name": "Liang Zhetong",
+      "value": 2
+    },
+    {
+      "name": "Wang Ning",
+      "value": 2
+    },
+    {
+      "name": "Xu Minghao",
+      "value": 2
+    },
+    {
+      "name": "Li Zhao",
+      "value": 2
+    },
+    {
+      "name": "Simson Walter",
+      "value": 2
+    },
+    {
+      "name": "Yang Jiancheng",
+      "value": 2
+    },
+    {
+      "name": "Li Linguo",
+      "value": 2
+    },
+    {
+      "name": "Liu Yunhui",
+      "value": 2
+    },
+    {
+      "name": "Gui Jie",
+      "value": 2
+    },
+    {
+      "name": "Li Lida",
+      "value": 2
+    },
+    {
+      "name": "Göbl Rüdiger",
+      "value": 2
+    },
+    {
+      "name": "Gong Dihong",
+      "value": 2
+    },
+    {
+      "name": "Zhao He",
+      "value": 2
+    },
+    {
+      "name": "Rackerseder Julia",
+      "value": 2
+    },
+    {
+      "name": "Yang Erkun",
+      "value": 2
+    },
+    {
+      "name": "Yu Kevin",
+      "value": 2
+    },
+    {
+      "name": "Lu Quanmao",
+      "value": 2
+    },
+    {
+      "name": "Tian Dayong",
+      "value": 2
+    },
+    {
+      "name": "Maninis Kevis-Kokitsi",
+      "value": 2
+    },
+    {
+      "name": "Cai Bolun",
+      "value": 2
+    },
+    {
+      "name": "Xu Xiangmin",
+      "value": 2
+    },
+    {
+      "name": "Duan Lingyu",
+      "value": 2
+    },
+    {
+      "name": "Zhou Feng",
+      "value": 2
+    },
+    {
+      "name": "Li Maosen",
+      "value": 2
+    },
+    {
+      "name": "Sarhan Mhd Hasan",
+      "value": 2
+    },
+    {
+      "name": "Eslami Abouzar",
+      "value": 2
+    },
+    {
+      "name": "Wu Jun",
+      "value": 2
+    },
+    {
+      "name": "Pont-Tuset Jordi",
+      "value": 2
+    },
+    {
+      "name": "Yu Ting",
+      "value": 2
+    },
+    {
+      "name": "Xiao Rong",
+      "value": 2
+    },
+    {
+      "name": "Liu Yinglu",
+      "value": 2
+    },
+    {
+      "name": "Li Yuxi",
+      "value": 2
+    },
+    {
+      "name": "Zheng Xiawu",
+      "value": 2
+    },
+    {
+      "name": "Tang Lang",
+      "value": 2
+    },
+    {
+      "name": "Li Yawei",
+      "value": 2
+    },
+    {
+      "name": "Zhang ShengChuan",
+      "value": 2
+    },
+    {
+      "name": "Zhao Wentian",
+      "value": 2
+    },
+    {
+      "name": "An Jie",
+      "value": 2
+    },
+    {
+      "name": "Xiong Haoyi",
+      "value": 2
+    },
+    {
+      "name": "Huan Jun",
+      "value": 2
+    },
+    {
+      "name": "Fan Nana",
+      "value": 2
+    },
+    {
+      "name": "Yuan Di",
+      "value": 2
+    },
+    {
+      "name": "Ren Hui",
+      "value": 2
+    },
+    {
+      "name": "Avetisyan Armen",
+      "value": 2
+    },
+    {
+      "name": "Li Teng",
+      "value": 2
+    },
+    {
+      "name": "Liu Liang",
+      "value": 2
+    },
+    {
+      "name": "Long Fuchen",
+      "value": 2
+    },
+    {
+      "name": "Cui Yuhao",
+      "value": 2
+    },
+    {
+      "name": "Li Yifeng",
+      "value": 2
+    },
+    {
+      "name": "Hoppe Elisabeth",
+      "value": 2
+    },
+    {
+      "name": "Thamm Florian",
+      "value": 2
+    },
+    {
+      "name": "Körzdörfer Gregor",
+      "value": 2
+    },
+    {
+      "name": "Shu Han",
+      "value": 2
+    },
+    {
+      "name": "Zhang Xinyu",
+      "value": 2
+    },
+    {
+      "name": "Lu Hao",
+      "value": 2
+    },
+    {
+      "name": "Dai Yutong",
+      "value": 2
+    },
+    {
+      "name": "Guo Feng",
+      "value": 2
+    },
+    {
+      "name": "Han Jiangfan",
+      "value": 2
+    },
+    {
+      "name": "Yuan Yuchen",
+      "value": 2
+    },
+    {
+      "name": "Su Jinsong",
+      "value": 2
+    },
+    {
+      "name": "An Wangpeng",
+      "value": 2
+    },
+    {
+      "name": "Yuan Yitian",
+      "value": 2
+    },
+    {
+      "name": "Liu Changsong",
+      "value": 2
+    },
+    {
+      "name": "Wu Yu-Huan",
+      "value": 2
+    },
+    {
+      "name": "Zhang Yiheng",
+      "value": 2
+    },
+    {
+      "name": "Zaech Jan-Nico",
+      "value": 2
+    },
+    {
+      "name": "Xu Xudong",
+      "value": 2
+    },
+    {
+      "name": "Diesner Jana",
+      "value": 2
+    },
+    {
+      "name": "Chen Tianlang",
+      "value": 2
+    },
+    {
+      "name": "Sun Peize",
+      "value": 2
+    },
+    {
+      "name": "Zhang Tianyu",
+      "value": 2
+    },
+    {
+      "name": "Zhang Yongfei",
+      "value": 2
+    },
+    {
+      "name": "Hui Zheng",
+      "value": 2
+    },
+    {
+      "name": "Wang Xiumei",
+      "value": 2
+    },
+    {
+      "name": "Zheng Haitian",
+      "value": 2
+    },
+    {
+      "name": "Roser Philipp",
+      "value": 2
+    },
+    {
+      "name": "Gao Lei",
+      "value": 2
+    },
+    {
+      "name": "Sun Shaoyan",
+      "value": 2
+    },
+    {
+      "name": "Paul Matthieu",
+      "value": 2
+    },
+    {
+      "name": "Krahenbuhl Philipp",
+      "value": 1
+    },
+    {
+      "name": "Zhang Dongming",
+      "value": 1
+    },
+    {
+      "name": "Lin Yutian",
+      "value": 1
+    },
+    {
+      "name": "Zhou Linjun",
+      "value": 1
+    },
+    {
+      "name": "Yang Shiqiang",
+      "value": 1
+    },
+    {
+      "name": "Fu Dengpan",
+      "value": 1
+    },
+    {
+      "name": "Gao Yuan",
+      "value": 1
+    },
+    {
+      "name": "Endres Jürgen",
+      "value": 1
+    },
+    {
+      "name": "Li Dianqi",
+      "value": 1
+    },
+    {
+      "name": "Sun Ming-Ting",
+      "value": 1
+    },
+    {
+      "name": "Degel Markus A.",
+      "value": 1
+    },
+    {
+      "name": "Liu Yanbin",
+      "value": 1
+    },
+    {
+      "name": "Lee Juho",
+      "value": 1
+    },
+    {
+      "name": "Park Minseop",
+      "value": 1
+    },
+    {
+      "name": "Kim Saehoon",
+      "value": 1
+    },
+    {
+      "name": "Yang Eunho",
+      "value": 1
+    },
+    {
+      "name": "Zhao Tianqi",
+      "value": 1
+    },
+    {
+      "name": "Tao Yunzhe",
+      "value": 1
+    },
+    {
+      "name": "Du Qiang",
+      "value": 1
+    },
+    {
+      "name": "Dunlap Lisa",
+      "value": 1
+    },
+    {
+      "name": "Ma Yi-An",
+      "value": 1
+    },
+    {
+      "name": "Arzani M. Mahdi",
+      "value": 1
+    },
+    {
+      "name": "Yousefzadeh Rahman",
+      "value": 1
+    },
+    {
+      "name": "Zhang Dongyu",
+      "value": 1
+    },
+    {
+      "name": "Buerhop-Lutz Claudia",
+      "value": 1
+    },
+    {
+      "name": "Snaauw Gerard",
+      "value": 1
+    },
+    {
+      "name": "Andreas Jacob",
+      "value": 1
+    },
+    {
+      "name": "Tateno Keisuke",
+      "value": 1
+    },
+    {
+      "name": "Spek Andrew",
+      "value": 1
+    },
+    {
+      "name": "Kazeminia Salome",
+      "value": 1
+    },
+    {
+      "name": "Naderi Farzad",
+      "value": 1
+    },
+    {
+      "name": "Hosseinzadeh Mehdi",
+      "value": 1
+    },
+    {
+      "name": "Anoosheh Asha",
+      "value": 1
+    },
+    {
+      "name": "Zhang Guyu",
+      "value": 1
+    },
+    {
+      "name": "Jakab Andras",
+      "value": 1
+    },
+    {
+      "name": "Bauer Stefan",
+      "value": 1
+    },
+    {
+      "name": "Felsner Lina",
+      "value": 1
+    },
+    {
+      "name": "Zou Fangyu",
+      "value": 1
+    },
+    {
+      "name": "Jie Zequn",
+      "value": 1
+    },
+    {
+      "name": "Zhang Weizhong",
+      "value": 1
+    },
+    {
+      "name": "Zhang Yifeng",
+      "value": 1
+    },
+    {
+      "name": "Zheng Huangjie",
+      "value": 1
+    },
+    {
+      "name": "Ni Tianwei",
+      "value": 1
+    },
+    {
+      "name": "Cai Ming",
+      "value": 1
+    },
+    {
+      "name": "Ren Xutong",
+      "value": 1
+    },
+    {
+      "name": "Wei Chen",
+      "value": 1
+    },
+    {
+      "name": "Arroyo Diego Martin",
+      "value": 1
+    },
+    {
+      "name": "Xu Huazhe",
+      "value": 1
+    },
+    {
+      "name": "Gao Yue",
+      "value": 1
+    },
+    {
+      "name": "Schönfeld Edgar",
+      "value": 1
+    },
+    {
+      "name": "Kang Bingyi",
+      "value": 1
+    },
+    {
+      "name": "Romero Andrés",
+      "value": 1
+    },
+    {
+      "name": "Arbeláez Pablo",
+      "value": 1
+    },
+    {
+      "name": "Chen Xiaoran",
+      "value": 1
+    },
+    {
+      "name": "Peng Gao",
+      "value": 1
+    },
+    {
+      "name": "Lu Pan",
+      "value": 1
+    },
+    {
+      "name": "Gong Rui",
+      "value": 1
+    },
+    {
+      "name": "Angelopoulou Elli",
+      "value": 1
+    },
+    {
+      "name": "de Stoutz Etienne",
+      "value": 1
+    },
+    {
+      "name": "Ignatov Andrey",
+      "value": 1
+    },
+    {
+      "name": "Kobyshev Nikolay",
+      "value": 1
+    },
+    {
+      "name": "Barnett Michael",
+      "value": 1
+    },
+    {
+      "name": "Wang Chenyu",
+      "value": 1
+    },
+    {
+      "name": "Hauptmann Alexander G",
+      "value": 1
+    },
+    {
+      "name": "Zhou Anfu",
+      "value": 1
+    },
+    {
+      "name": "Mei Xue",
+      "value": 1
+    },
+    {
+      "name": "Wu Lingyun",
+      "value": 1
+    },
+    {
+      "name": "Qian Xueming",
+      "value": 1
+    },
+    {
+      "name": "Siddiqui Shayan",
+      "value": 1
+    },
+    {
+      "name": "Duan Jiang",
+      "value": 1
+    },
+    {
+      "name": "Dhall Ankit",
+      "value": 1
+    },
+    {
+      "name": "Lu Chris",
+      "value": 1
+    },
+    {
+      "name": "Yang Muli",
+      "value": 1
+    },
+    {
+      "name": "Yuan Xia",
+      "value": 1
+    },
+    {
+      "name": "Liang Mingyang",
+      "value": 1
+    },
+    {
+      "name": "Song You",
+      "value": 1
+    },
+    {
+      "name": "Scheel Oliver",
+      "value": 1
+    },
+    {
+      "name": "Zhang Dong-dong",
+      "value": 1
+    },
+    {
+      "name": "Zaborovsky Vladimir",
+      "value": 1
+    },
+    {
+      "name": "Wu Yan-wen",
+      "value": 1
+    },
+    {
+      "name": "Vandenhende Simon",
+      "value": 1
+    },
+    {
+      "name": "Li Yudian",
+      "value": 1
+    },
+    {
+      "name": "Fink Laura",
+      "value": 1
+    },
+    {
+      "name": "Wu Jie Ying",
+      "value": 1
+    },
+    {
+      "name": "Song Tianyu",
+      "value": 1
+    },
+    {
+      "name": "Zhang Jiarui",
+      "value": 1
+    },
+    {
+      "name": "Shi Yahao",
+      "value": 1
+    },
+    {
+      "name": "Chen Xiaowu",
+      "value": 1
+    },
+    {
+      "name": "Wang Chengyu",
+      "value": 1
+    },
+    {
+      "name": "Sun Changming",
+      "value": 1
+    },
+    {
+      "name": "Chen Xipeng",
+      "value": 1
+    },
+    {
+      "name": "Quan Ruijie",
+      "value": 1
+    },
+    {
+      "name": "Liao Shengcai",
+      "value": 1
+    },
+    {
+      "name": "Zeng Xingyu",
+      "value": 1
+    },
+    {
+      "name": "Xu Jinglin",
+      "value": 1
+    },
+    {
+      "name": "Zhu Minfeng",
+      "value": 1
+    },
+    {
+      "name": "Pan Pingbo",
+      "value": 1
+    },
+    {
+      "name": "Jia Xixi",
+      "value": 1
+    },
+    {
+      "name": "Liu Rui",
+      "value": 1
+    },
+    {
+      "name": "Xu Xinxu",
+      "value": 1
+    },
+    {
+      "name": "Chen Xinyuan",
+      "value": 1
+    },
+    {
+      "name": "Song Li",
+      "value": 1
+    },
+    {
+      "name": "Xue Yumeng",
+      "value": 1
+    },
+    {
+      "name": "Tang Yuanyan",
+      "value": 1
+    },
+    {
+      "name": "He Fengxiang",
+      "value": 1
+    },
+    {
+      "name": "Xu Yonghao",
+      "value": 1
+    },
+    {
+      "name": "Gasperini Stefano",
+      "value": 1
+    },
+    {
+      "name": "Fang Michael Y. -S.",
+      "value": 1
+    },
+    {
+      "name": "Steiger Katja",
+      "value": 1
+    },
+    {
+      "name": "Mollenhauer Martin",
+      "value": 1
+    },
+    {
+      "name": "Li Wanhua",
+      "value": 1
+    },
+    {
+      "name": "Feng Jianjiang",
+      "value": 1
+    },
+    {
+      "name": "Liu Jinxian",
+      "value": 1
+    },
+    {
+      "name": "Zhu Fengda",
+      "value": 1
+    },
+    {
+      "name": "Tang Yuan Yan",
+      "value": 1
+    },
+    {
+      "name": "Wu Fanzi",
+      "value": 1
+    },
+    {
+      "name": "Chen Yajing",
+      "value": 1
+    },
+    {
+      "name": "Ling Yonggen",
+      "value": 1
+    },
+    {
+      "name": "Krönke Markus",
+      "value": 1
+    },
+    {
+      "name": "Scheidhauer Klemens",
+      "value": 1
+    },
+    {
+      "name": "Li Congcong",
+      "value": 1
+    },
+    {
+      "name": "Luo Tiejian",
+      "value": 1
+    },
+    {
+      "name": "Demiray Beatrice",
+      "value": 1
+    },
+    {
+      "name": "Bozhinoski Stevica",
+      "value": 1
+    },
+    {
+      "name": "Kim Donghyun",
+      "value": 1
+    },
+    {
+      "name": "Liu Fanghui",
+      "value": 1
+    },
+    {
+      "name": "Yao Jinghan",
+      "value": 1
+    },
+    {
+      "name": "Twigg Chris",
+      "value": 1
+    },
+    {
+      "name": "Tao Lingling",
+      "value": 1
+    },
+    {
+      "name": "Pearlman Rebecca",
+      "value": 1
+    },
+    {
+      "name": "Barmaki Roghayeh",
+      "value": 1
+    },
+    {
+      "name": "Xie Bo",
+      "value": 1
+    },
+    {
+      "name": "Liu Daizong",
+      "value": 1
+    },
+    {
+      "name": "Duan Kaiwen",
+      "value": 1
+    },
+    {
+      "name": "Hennersperger Christoph",
+      "value": 1
+    },
+    {
+      "name": "Tran Toan",
+      "value": 1
+    },
+    {
+      "name": "Yan Qingsen",
+      "value": 1
+    },
+    {
+      "name": "Gall Jurgen",
+      "value": 1
+    },
+    {
+      "name": "Li Xinyu",
+      "value": 1
+    },
+    {
+      "name": "Liu Lijie",
+      "value": 1
+    },
+    {
+      "name": "Wen Chuan",
+      "value": 1
+    },
+    {
+      "name": "Chang Jie",
+      "value": 1
+    },
+    {
+      "name": "Montes Alberto",
+      "value": 1
+    },
+    {
+      "name": "Chen Jingwen",
+      "value": 1
+    },
+    {
+      "name": "Zhan Yibing",
+      "value": 1
+    },
+    {
+      "name": "Ma Tao",
+      "value": 1
+    },
+    {
+      "name": "Bai Yeqi",
+      "value": 1
+    },
+    {
+      "name": "Wei Sining",
+      "value": 1
+    },
+    {
+      "name": "Xu Sen-Zhe",
+      "value": 1
+    },
+    {
+      "name": "Friedmann Matan",
+      "value": 1
+    },
+    {
+      "name": "Kadar Ilan",
+      "value": 1
+    },
+    {
+      "name": "Lavy Lev Yitzhak",
+      "value": 1
+    },
+    {
+      "name": "Khakzar Ashkan",
+      "value": 1
+    },
+    {
+      "name": "Fan Yanbo",
+      "value": 1
+    },
+    {
+      "name": "Zhang Yong",
+      "value": 1
+    },
+    {
+      "name": "Chen Danlu",
+      "value": 1
+    },
+    {
+      "name": "Zhang Xu-Yao",
+      "value": 1
+    },
+    {
+      "name": "Wen Yuxin",
+      "value": 1
+    },
+    {
+      "name": "Wang Qin",
+      "value": 1
+    },
+    {
+      "name": "Dodge Samuel",
+      "value": 1
+    },
+    {
+      "name": "Zeiler Matthew",
+      "value": 1
+    },
+    {
+      "name": "Guan Naiyang",
+      "value": 1
+    },
+    {
+      "name": "Zhang Yangmuzi",
+      "value": 1
+    },
+    {
+      "name": "Lahiani Amal",
+      "value": 1
+    },
+    {
+      "name": "Hou Jingyi",
+      "value": 1
+    },
+    {
+      "name": "Qi Yayun",
+      "value": 1
+    },
+    {
+      "name": "Xu Dejing",
+      "value": 1
+    },
+    {
+      "name": "Wilder Matt",
+      "value": 1
+    },
+    {
+      "name": "Cheng Ke",
+      "value": 1
+    },
+    {
+      "name": "Milan Anton",
+      "value": 1
+    },
+    {
+      "name": "Obukhov Anton",
+      "value": 1
+    },
+    {
+      "name": "Maybank Stephen J.",
+      "value": 1
+    },
+    {
+      "name": "Wang Xiaohan",
+      "value": 1
+    },
+    {
+      "name": "Sun Xiaohang",
+      "value": 1
+    },
+    {
+      "name": "Huo Zhimin",
+      "value": 1
+    },
+    {
+      "name": "Vogelsang Levon",
+      "value": 1
+    },
+    {
+      "name": "Sehnert William J.",
+      "value": 1
+    },
+    {
+      "name": "Hoffmann Mathis",
+      "value": 1
+    },
+    {
+      "name": "Kosaraju Vineet",
+      "value": 1
+    },
+    {
+      "name": "Liniger Alexander",
+      "value": 1
+    },
+    {
+      "name": "Maurenbrecher Henrik",
+      "value": 1
+    },
+    {
+      "name": "Chen Weihai",
+      "value": 1
+    },
+    {
+      "name": "Wu Xingming",
+      "value": 1
+    },
+    {
+      "name": "Mou Yipeng",
+      "value": 1
+    },
+    {
+      "name": "Coskun Huseyin",
+      "value": 1
+    },
+    {
+      "name": "He Zhenwei",
+      "value": 1
+    },
+    {
+      "name": "Privalov Maxim",
+      "value": 1
+    },
+    {
+      "name": "Wan Chengde",
+      "value": 1
+    },
+    {
+      "name": "Chen Hanting",
+      "value": 1
+    },
+    {
+      "name": "You Mingyu",
+      "value": 1
+    },
+    {
+      "name": "Casas Leslie",
+      "value": 1
+    },
+    {
+      "name": "Chi Lu",
+      "value": 1
+    },
+    {
+      "name": "Tian Guiyu",
+      "value": 1
+    },
+    {
+      "name": "Xu Songcen",
+      "value": 1
+    },
+    {
+      "name": "Feng Qianyu",
+      "value": 1
+    },
+    {
+      "name": "Xu Yixing",
+      "value": 1
+    },
+    {
+      "name": "Ghazaei Ghazal",
+      "value": 1
+    },
+    {
+      "name": "Nazarpour Kianoush",
+      "value": 1
+    },
+    {
+      "name": "Olshausen Bruno",
+      "value": 1
+    },
+    {
+      "name": "Zhao Xiangyun",
+      "value": 1
+    },
+    {
+      "name": "Zhou Lingyiqing",
+      "value": 1
+    },
+    {
+      "name": "Mao Jiageng",
+      "value": 1
+    },
+    {
+      "name": "Marzahl Christian",
+      "value": 1
+    },
+    {
+      "name": "Bertram Christof A.",
+      "value": 1
+    },
+    {
+      "name": "Jasensky Anne-Katherine",
+      "value": 1
+    },
+    {
+      "name": "Song Guoli",
+      "value": 1
+    },
+    {
+      "name": "Král Pavel",
+      "value": 1
+    },
+    {
+      "name": "Dong Xiaoyi",
+      "value": 1
+    },
+    {
+      "name": "Qiu Jie-Lin",
+      "value": 1
+    },
+    {
+      "name": "Lu Bao-Liang",
+      "value": 1
+    },
+    {
+      "name": "Zhang Jianhao",
+      "value": 1
+    },
+    {
+      "name": "Wald Johanna",
+      "value": 1
+    },
+    {
+      "name": "Song Lingxue",
+      "value": 1
+    },
+    {
+      "name": "Xiong Haipeng",
+      "value": 1
+    },
+    {
+      "name": "Liu Chengxin",
+      "value": 1
+    },
+    {
+      "name": "Lauritsch Guenter",
+      "value": 1
+    },
+    {
+      "name": "Deng Jiajun",
+      "value": 1
+    },
+    {
+      "name": "Li Zhichao",
+      "value": 1
+    },
+    {
+      "name": "Liu Ronghua",
+      "value": 1
+    },
+    {
+      "name": "Li Na",
+      "value": 1
+    },
+    {
+      "name": "Hahner Martin",
+      "value": 1
+    },
+    {
+      "name": "Kortekaas Reinier",
+      "value": 1
+    },
+    {
+      "name": "Strumia Maddalena",
+      "value": 1
+    },
+    {
+      "name": "Wang Yida",
+      "value": 1
+    },
+    {
+      "name": "Tan David Joseph",
+      "value": 1
+    },
+    {
+      "name": "Cao Xiangyong",
+      "value": 1
+    },
+    {
+      "name": "Tian Lixun",
+      "value": 1
+    },
+    {
+      "name": "Parida Abhijeet",
+      "value": 1
+    },
+    {
+      "name": "Tran Arianne",
+      "value": 1
+    },
+    {
+      "name": "Tomczack Agnieszka",
+      "value": 1
+    },
+    {
+      "name": "Shukla Samarth",
+      "value": 1
+    },
+    {
+      "name": "Bier Bastian",
+      "value": 1
+    },
+    {
+      "name": "He Zhuoxun",
+      "value": 1
+    },
+    {
+      "name": "Lv Pei",
+      "value": 1
+    },
+    {
+      "name": "Yu Haiyu",
+      "value": 1
+    },
+    {
+      "name": "Xue Junxiao",
+      "value": 1
+    },
+    {
+      "name": "Cheng Junjin",
+      "value": 1
+    },
+    {
+      "name": "Cui Lisha",
+      "value": 1
+    },
+    {
+      "name": "Wei Longhui",
+      "value": 1
+    },
+    {
+      "name": "Bai Shihao",
+      "value": 1
+    },
+    {
+      "name": "Zhang Liyan",
+      "value": 1
+    },
+    {
+      "name": "Han Zhen",
+      "value": 1
+    },
+    {
+      "name": "Dai Enyan",
+      "value": 1
+    },
+    {
+      "name": "Ren Xiaoying",
+      "value": 1
+    },
+    {
+      "name": "Chen Shuaijun",
+      "value": 1
+    },
+    {
+      "name": "Liu Fangyi",
+      "value": 1
+    },
+    {
+      "name": "Andrychowicz Marcin",
+      "value": 1
+    },
+    {
+      "name": "Li Peike",
+      "value": 1
+    },
+    {
+      "name": "Xu Yunqiu",
+      "value": 1
+    },
+    {
+      "name": "Li Guanju",
+      "value": 1
+    },
+    {
+      "name": "Zhang Qiming",
+      "value": 1
+    },
+    {
+      "name": "Pan Zhaoya",
+      "value": 1
+    },
+    {
+      "name": "Cheng Zhongwei",
+      "value": 1
+    },
+    {
+      "name": "Chen Shiming",
+      "value": 1
+    },
+    {
+      "name": "Chaudhari Prashant",
+      "value": 1
+    },
+    {
+      "name": "Zheng Zhaohui",
+      "value": 1
+    },
+    {
+      "name": "Li Jinze",
+      "value": 1
+    },
+    {
+      "name": "Ye Rongguang",
+      "value": 1
+    },
+    {
+      "name": "Yan Cheng",
+      "value": 1
+    },
+    {
+      "name": "Pang Guansong",
+      "value": 1
+    },
+    {
+      "name": "Sharma Sanjeev",
+      "value": 1
+    },
+    {
+      "name": "Xu Fang",
+      "value": 1
+    },
+    {
+      "name": "He Anfeng",
+      "value": 1
+    },
+    {
+      "name": "Taylor Giacomo",
+      "value": 1
+    },
+    {
+      "name": "Forster Tess",
+      "value": 1
+    },
+    {
+      "name": "Zhou Yiyi",
+      "value": 1
+    },
+    {
+      "name": "Luo Gen",
+      "value": 1
+    },
+    {
+      "name": "Chen Zhikai",
+      "value": 1
+    },
+    {
+      "name": "He Yong",
+      "value": 1
+    },
+    {
+      "name": "Wels Michael",
+      "value": 1
+    }
+  ]
+}

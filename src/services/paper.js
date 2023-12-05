@@ -38,3 +38,17 @@ export const selectByCategory = (categories) => {
         }
     })
 }
+
+
+/**
+ * 网络图
+ * @returns {Promise | Promise<unknown>}
+ */
+export const selectForce = (category) => {
+    return service.get({
+        url: '/Force/selectForce',
+        params: {
+            category
+        }
+    })
+}

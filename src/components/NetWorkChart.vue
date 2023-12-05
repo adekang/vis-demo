@@ -5,11 +5,12 @@
 <script setup>
 import {onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
-import graph from '../../public/les-miserables.json'
+import {selectForce} from "@/services/paper.js";
 
 // 1. 创建echarts实例
 let mChart = null;
 const target = ref(null)
+const graph = ref(null)
 
 const props = defineProps({
   category: {
@@ -18,7 +19,12 @@ const props = defineProps({
   }
 })
 const {category} = toRefs(props)
-watch(()=>category.value, async (newVal) => {
+watch(() => category.value, async (newVal) => {
+
+  selectForce(newVal).then(res => {
+    graph.value = res.data
+  })
+  renderChart()
   // const res = await findAllByCategory(newVal)
   // wordData.value = res.data
   // renderChart()
@@ -26,40 +32,75 @@ watch(()=>category.value, async (newVal) => {
 
 onMounted(() => {
   mChart = echarts.init(target.value)
-  renderChart()
+  selectForce("cs.CV").then(res => {
+    graph.value = res.data
+    renderChart()
+
+  })
+
+
 })
 // 2. 构建 option 配置对象
 const renderChart = () => {
-  graph.nodes.forEach(function (node) {
-    node.label = {
-      show: node.symbolSize > 30
-    };
-  });
+  // graph.nodes.forEach(function (node) {
+  //   node.label = {
+  //     show: node.symbolSize > 30
+  //   };
+  // });
 
   const options = {
+    width: "90%",
+    height: "90%",
     title: {
       text: '网络图',
       top: 'top',
       left: 'left'
     },
     tooltip: {},
-    legend: [
-      {
-        data: graph.categories.map(function (a) {
-          return a.name;
-        })
-      }
-    ],
+    legend: [],
     animationDuration: 1500,
     animationEasingUpdate: 'quinticInOut',
     series: [
       {
-        name: 'Les Miserables',
         type: 'graph',
         layout: 'none',
-        data: graph.nodes,
-        links: graph.links,
-        categories: graph.categories,
+        data: graph.value.node.map(function (node) {
+          return {
+            x: (Math.random() - 0.5) * 4000,
+            y: (Math.random() - 0.5) * 3000,
+            id: node.name,
+            name: node.name,
+            symbolSize: node.value * (1000 / Window.nodeNum),
+            itemStyle: {
+              color:
+                  "rgb(" +
+                  [
+                    100 - node.value * 3,
+                    150 - node.value * 3,
+                    235 - node.value * 3,
+                  ].join(",") +
+                  ")",
+              // "rgb(" +
+              // [
+              //   Math.round(Math.random() * 100) + 50,
+              //   Math.round(Math.random() * 100),
+              //   Math.round(Math.random() * 200) + 50,
+              // ].join(",") +
+              // ")",
+            },
+          };
+        }),
+        links:  graph.value.link.map(function (edge) {
+          return {
+            source: edge.source,
+            target: edge.target,
+            lineStyle: {
+              width: edge.value * 0.5,
+              curveness: 0.2,
+              opacity: 0.7,
+            },
+          };
+        }),
         roam: true,
         label: {
           position: 'right',
@@ -83,7 +124,6 @@ const renderChart = () => {
   mChart.setOption(options)
   window.addEventListener('resize', () => {
     myChart.resize()
-
   })
 }
 
