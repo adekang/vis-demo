@@ -1,12 +1,11 @@
 <template>
-  <div ref="target" style="width: 80%;height: 80%;"></div>
+  <div ref="target" style="width: 100%;height: 100%;"></div>
 </template>
 
 <script setup>
-import {ref, onMounted, watch} from "vue"
+import {onMounted, ref} from "vue"
 import * as echarts from 'echarts'
 import 'echarts-wordcloud';
-import data from '../../public/FeHelper-20221225225857.json'
 import {findAllByCategory} from "@/services/index.js";
 
 const wordData = ref()

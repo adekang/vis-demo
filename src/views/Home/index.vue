@@ -3,6 +3,7 @@ import PackageChart from "@/components/PackageChart.vue";
 import NetWorkChart from "@/components/NetWorkChart.vue";
 import WordChart from "@/components/WordChart.vue";
 import PaperListCard from "@/components/PaperListCard.vue";
+import HighChart from "@/components/HighChart.vue";
 </script>
 
 
@@ -25,6 +26,7 @@ import PaperListCard from "@/components/PaperListCard.vue";
         <div class="search-container item">
         </div>
         <div class="high-container item">
+          <HighChart/>
         </div>
         <div class="paper-container item">
           <PaperListCard/>

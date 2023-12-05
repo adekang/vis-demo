@@ -8,3 +8,18 @@ export const findAllByCategory = (name) => {
         }
     })
 }
+
+/**
+ * 排序图
+ * @param category
+ * @returns {Promise | Promise<unknown>}
+ */
+
+export const selectBar = (category) => {
+    return service.get({
+        url: '/Bar/selectBar',
+        params: {
+            category
+        }
+    })
+}
