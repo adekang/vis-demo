@@ -1,12 +1,12 @@
 <script setup>
-import {onMounted, ref} from "vue";
+import {onMounted, ref,getCurrentInstance } from "vue";
 import * as d3 from 'd3'; // 引入D3.js库
 import dataJson from '../../public/data.json';
 import {useElementSize} from "@vueuse/core";
 
 const container = ref(null);
 const {width, height} = useElementSize(container)
-
+const emit = getCurrentInstance().emit; // 获取 emit 方法
 
 onMounted(() => {
   // 在组件挂载后，初始化和绘制图表
@@ -50,18 +50,31 @@ function drawChart(container) {
       .data(root.descendants().slice(1))
       .join("circle")
       .attr("fill", d => d.children ? color(d.depth) : "white")
-      .attr("pointer-events", d => !d.children ? "none" : null)
+      // .attr("pointer-events", d => !d.children ? "none" : null)
       .on("mouseover", function () {
         d3.select(this).attr("stroke", "#000");
       })
       .on("mouseout", function () {
         d3.select(this).attr("stroke", null);
       })
-      .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
+      .on("click", (event, d) => {
+        if (!d.children) { // 检查是否为叶子节点
+          const selectedName = d.data.name;
+          console.log(d.data.name);
+          emit('circleSelected', selectedName);
+          event.stopPropagation(); // 阻止事件传播
+          return; // 如果是叶子节点，执行完传值操作后退出函数
+        }
+
+          focus !== d && (zoom(event, d), event.stopPropagation());
+        // 剩余的放大缩小操作
+
+      });
+
 
   // Append the text labels.
   const label = svg.append("g")
-      .style("font", "10px sans-serif")
+      // .style("font", "40px Arial")
       .attr("pointer-events", "none")
       .attr("text-anchor", "middle")
       .selectAll("text")
@@ -70,6 +83,9 @@ function drawChart(container) {
       .style("fill-opacity", d => d.parent === root ? 1 : 0)
       .style("display", d => d.parent === root ? "inline" : "none")
       .text(d => d.data.name);
+
+  label.filter(d => d.r) // Filter nodes with radius property
+      .style("font", d => `${Math.min(d.r * 2, 20)}px Arial`);
 
   // Create the zoom behavior and zoom immediately in to the initial focus node.
   svg.on("click", (event) => zoom(event, root));
@@ -88,6 +104,9 @@ function drawChart(container) {
   }
 
   function zoom(event, d) {
+
+
+
     focus = d;
     const transition = svg.transition()
         .duration(event.altKey ? 7500 : 750)
@@ -95,6 +114,8 @@ function drawChart(container) {
           const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
           return t => zoomTo(i(t));
         });
+
+
 
     label
         .filter(function (d) {
@@ -108,6 +129,17 @@ function drawChart(container) {
         .on("end", function (d) {
           if (d.parent !== focus) this.style.display = "none";
         });
+
+
+    // if (!d.children) {
+    //   console.log(123)
+    //   const selectedName = d.data.name;
+    //   console.log(d.data.name);
+    //   emit('circleSelected', selectedName);
+    //   return; // 如果是叶子节点，退出函数
+    // }
+
+
   }
 
   return svg.node();
