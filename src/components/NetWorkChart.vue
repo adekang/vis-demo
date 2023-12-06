@@ -17,11 +17,10 @@ const emit = getCurrentInstance().emit; // 获取 emit 方法
 const props = defineProps(['category'])
 const {category} = toRefs(props)
 watch(() => category.value, async (newVal) => {
-
   selectForce(newVal).then(res => {
     graph.value = res.data
+    renderChart()
   })
-  renderChart()
   // const res = await findAllByCategory(newVal)
   // wordData.value = res.data
   // renderChart()
@@ -29,10 +28,10 @@ watch(() => category.value, async (newVal) => {
 
 onMounted(() => {
   myChart = echarts.init(target.value)
-  selectForce("cs.CV").then(res => {
-    graph.value = res.data
-    renderChart()
-  })
+  // selectForce("cs.CV").then(res => {
+  //   graph.value = res.data
+  //   renderChart()
+  // })
 })
 // 2. 构建 option 配置对象
 const renderChart = () => {

@@ -28,10 +28,12 @@ watch(()=>category.value, async (newVal) => {
 let mChart = null;
 const target = ref(null)
 onMounted(async () => {
-  const res = await findAllByCategory("Statistics")
-  wordData.value = res.data
   mChart = echarts.init(target.value)
-  renderChart()
+
+
+  // const res = await findAllByCategory("Statistics")
+  // wordData.value = res.data
+  // renderChart()
 })
 // 2. 构建 option 配置对象
 const renderChart = () => {
