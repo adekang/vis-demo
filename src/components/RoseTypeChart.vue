@@ -3,22 +3,33 @@
 </template>
 
 <script setup>
-import {onMounted, ref} from "vue"
+import {onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
-import {selectByName} from "@/services/paper.js";
+import {selectByCategory, selectByName} from "@/services/paper.js";
 // 1. 创建echarts实例
 let myChart = null;
 const target = ref(null)
+
+const props = defineProps({
+  name: {
+    type: String,
+    required: true
+  }
+})
+
+const {name} = toRefs(props)
+watch(() => name.value, async (newVal) => {
+  const res = await selectByName(newVal)
+  targetData.value = res.data
+  renderChart()
+})
+
 
 
 const targetData = ref()
 
 onMounted(() => {
   myChart = echarts.init(target.value)
-  selectByName("Han Jiawei").then(res => {
-    targetData.value = res.data
-    renderChart()
-  })
 })
 
 // 2. 构建 option 配置对象

@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import {onMounted, ref, toRefs, watch} from "vue"
+import {getCurrentInstance, onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import {selectForce} from "@/services/paper.js";
 
@@ -12,12 +12,9 @@ let myChart = null;
 const target = ref(null)
 const graph = ref(null)
 
-const props = defineProps({
-  category: {
-    type: String,
-    required: true
-  }
-})
+
+const emit = getCurrentInstance().emit; // 获取 emit 方法
+const props = defineProps(['category'])
 const {category} = toRefs(props)
 watch(() => category.value, async (newVal) => {
 
@@ -35,15 +32,10 @@ onMounted(() => {
   selectForce("cs.CV").then(res => {
     graph.value = res.data
     renderChart()
-
   })
-
-
 })
 // 2. 构建 option 配置对象
 const renderChart = () => {
-
-
   const options = {
     width: "90%",
     height: "90%",
@@ -67,11 +59,10 @@ const renderChart = () => {
             id: node.name,
             name: node.name,
             symbolSize: node.value,
-            itemStyle: {
-            },
+            itemStyle: {},
           };
         }),
-        links:  graph.value.link.map(function (edge) {
+        links: graph.value.link.map(function (edge) {
           return {
             source: edge.source,
             target: edge.target,
@@ -102,8 +93,9 @@ const renderChart = () => {
   };
 
   myChart.on("click", (params) => {
-    console.log(params.data);
+    emit('selectByName', params.data.name);
   });
+
 
   // 3. 通过 实例.setOptions(option) 方法加载配置
   myChart.setOption(options)

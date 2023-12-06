@@ -10,7 +10,13 @@ import RoseTypeChart from "@/components/RoseTypeChart.vue";
 const selectedPackageData = ref('')// Package图选中的数据
 const handlePackageSelected = (data) => {
   selectedPackageData.value = data
-  console.log(selectedPackageData.value)
+  console.log("气泡图选择的类别::", selectedPackageData.value)
+}
+
+const name = ref('')
+const handleSelectByName = (data) => {
+  console.log("网络图选择的名字::", data)
+  name.value = data
 }
 
 </script>
@@ -29,11 +35,11 @@ const handlePackageSelected = (data) => {
 
     <div class="right-container">
       <div class="top-container net-container item">
-        <NetWorkChart :category="selectedPackageData"/>
+        <NetWorkChart :category="selectedPackageData" @selectByName="handleSelectByName"/>
       </div>
       <div class="bottom-container">
         <div class="search-container item">
-          <RoseTypeChart/>
+          <RoseTypeChart :name="name"/>
         </div>
         <div class="high-container item">
           <HighChart/>
