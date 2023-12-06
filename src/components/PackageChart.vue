@@ -23,7 +23,7 @@ function drawChart(container) {
 
   const color = d3.scaleLinear()
       .domain([0, 5])
-      .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+      .range(["", "hsl(228,30%,40%)"])
       .interpolate(d3.interpolateHcl);
 
   // Compute the layout.
