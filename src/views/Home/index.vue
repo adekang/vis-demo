@@ -42,7 +42,7 @@ const handleSelectByName = (data) => {
           <RoseTypeChart :name="name"/>
         </div>
         <div class="high-container item">
-          <HighChart/>
+          <HighChart  :category="selectedPackageData"/>
         </div>
         <div class="paper-container item">
           <PaperListCard :category="selectedPackageData"/>

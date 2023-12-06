@@ -52,6 +52,23 @@ export const selectForce = (category) => {
         }
     })
 }
+export const getHighChartData = (category) => {
+    return service.get({
+        url: '/Bar/selectBar',
+        params: {
+            category
+        }
+    })
+}
+export const getHighChartIndex = (category) => {
+    return service.get({
+        url: '/Bar/selectName',
+        params: {
+            category
+        }
+    })
+}
+
 
 /**
  * 查找与作者相关的人
