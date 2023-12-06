@@ -39,10 +39,12 @@ const handleSelectByName = (data) => {
       </div>
       <div class="bottom-container">
         <div class="search-container item">
-          <RoseTypeChart :name="name"/>
+          <HighChart  :category="selectedPackageData"/>
+
         </div>
         <div class="high-container item">
-          <HighChart  :category="selectedPackageData"/>
+          <RoseTypeChart :name="name"/>
+
         </div>
         <div class="paper-container item">
           <PaperListCard :category="selectedPackageData"/>
