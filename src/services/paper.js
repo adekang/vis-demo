@@ -52,3 +52,17 @@ export const selectForce = (category) => {
         }
     })
 }
+
+/**
+ * 查找与作者相关的人
+ * @param name
+ * @returns {Promise | Promise<unknown>}
+ */
+export const selectByName = (name) => {
+    return service.get({
+        url: '/Force/selectByName',
+        params: {
+            name
+        }
+    })
+}

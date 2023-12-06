@@ -42,11 +42,7 @@ onMounted(() => {
 })
 // 2. 构建 option 配置对象
 const renderChart = () => {
-  // graph.nodes.forEach(function (node) {
-  //   node.label = {
-  //     show: node.symbolSize > 30
-  //   };
-  // });
+
 
   const options = {
     width: "90%",
@@ -70,23 +66,8 @@ const renderChart = () => {
             y: (Math.random() - 0.5) * 3000,
             id: node.name,
             name: node.name,
-            symbolSize: node.value * (1000 / Window.nodeNum),
+            symbolSize: node.value,
             itemStyle: {
-              color:
-                  "rgb(" +
-                  [
-                    100 - node.value * 3,
-                    150 - node.value * 3,
-                    235 - node.value * 3,
-                  ].join(",") +
-                  ")",
-              // "rgb(" +
-              // [
-              //   Math.round(Math.random() * 100) + 50,
-              //   Math.round(Math.random() * 100),
-              //   Math.round(Math.random() * 200) + 50,
-              // ].join(",") +
-              // ")",
             },
           };
         }),
