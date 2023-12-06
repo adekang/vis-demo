@@ -8,7 +8,7 @@ import * as echarts from 'echarts'
 import {selectForce} from "@/services/paper.js";
 
 // 1. 创建echarts实例
-let mChart = null;
+let myChart = null;
 const target = ref(null)
 const graph = ref(null)
 
@@ -31,7 +31,7 @@ watch(() => category.value, async (newVal) => {
 })
 
 onMounted(() => {
-  mChart = echarts.init(target.value)
+  myChart = echarts.init(target.value)
   selectForce("cs.CV").then(res => {
     graph.value = res.data
     renderChart()
@@ -120,8 +120,12 @@ const renderChart = () => {
     ]
   };
 
+  myChart.on("click", (params) => {
+    console.log(params.data);
+  });
+
   // 3. 通过 实例.setOptions(option) 方法加载配置
-  mChart.setOption(options)
+  myChart.setOption(options)
   window.addEventListener('resize', () => {
     myChart.resize()
   })

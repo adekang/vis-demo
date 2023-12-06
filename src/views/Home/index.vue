@@ -5,9 +5,10 @@ import NetWorkChart from "@/components/NetWorkChart.vue";
 import WordChart from "@/components/WordChart.vue";
 import PaperListCard from "@/components/PaperListCard.vue";
 import HighChart from "@/components/HighChart.vue";
+import RoseTypeChart from "@/components/RoseTypeChart.vue";
 
 const selectedPackageData = ref('')// Package图选中的数据
-const handlePackageSelected = (data) =>{
+const handlePackageSelected = (data) => {
   selectedPackageData.value = data
   console.log(selectedPackageData.value)
 }
@@ -32,6 +33,7 @@ const handlePackageSelected = (data) =>{
       </div>
       <div class="bottom-container">
         <div class="search-container item">
+          <RoseTypeChart/>
         </div>
         <div class="high-container item">
           <HighChart/>
