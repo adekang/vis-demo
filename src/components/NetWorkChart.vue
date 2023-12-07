@@ -58,7 +58,7 @@ const renderChart = () => {
             id: node.name,
             name: node.name,
             symbolSize: node.value,
-            itemStyle: {},
+            itemStyle: {color: '#fd7e14'},//点的颜色
           };
         }),
         links: graph.value.link.map(function (edge) {
@@ -69,6 +69,7 @@ const renderChart = () => {
               width: edge.value * 0.5,
               curveness: 0.2,
               opacity: 0.7,
+              color: '#ced4da'
             },
           };
         }),

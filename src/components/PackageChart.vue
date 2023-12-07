@@ -23,7 +23,8 @@ function drawChart(container) {
 
   const color = d3.scaleLinear()
       .domain([0, 5])
-      .range(["", "hsl(228,30%,40%)"])
+      // .range(["", "hsl(228,30%,40%)"])
+      .range(["", "#fd7e14"]) // 将颜色更改为橙色
       .interpolate(d3.interpolateHcl);
 
   // Compute the layout.
@@ -83,8 +84,12 @@ function drawChart(container) {
       .style("display", d => d.parent === root ? "inline" : "none")
       .text(d => d.data.name);
 
+
   label.filter(d => d.r) // Filter nodes with radius property
-      .style("font", d => `${Math.min(d.r * 2, 20)}px Arial`);
+      .style("font", d => `${Math.min(d.r * 2, 20)}px Arial`)
+      .style("font-family", "Comic Sans MS, cursive") // 设置文本的字体样式为 Comic Sans MS 或 cursive 字体
+      .style("font-weight", "bold"); // 将文本标签设置为加粗
+
 
   // Create the zoom behavior and zoom immediately in to the initial focus node.
   svg.on("click", (event) => zoom(event, root));

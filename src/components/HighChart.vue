@@ -1,135 +1,146 @@
-<template>
-  <div ref="target" style="width: 100%;height: 100%;"></div>
-</template>
+  <template>
+    <div ref="target" style="width: 100%;height: 100%;"></div>
+  </template>
 
-<script setup>
-import {ref, onMounted, watch, toRefs} from "vue"
-import * as echarts from 'echarts'
-import dataJson from '../../public/life-expectancy-table.json';
-import {getHighChartData, getHighChartIndex} from "@/services/paper.js";
-// 1. 创建echarts实例
-let myChart  = null;
-const target = ref(null)
-const authorDatum =ref([])
-const graph = ref(null)
+  <script setup>
+  import {ref, onMounted, watch, toRefs,getCurrentInstance,defineProps} from "vue"
+  import * as echarts from 'echarts'
+  import dataJson from '../../public/life-expectancy-table.json';
+  import {getHighChartData, getHighChartIndex} from "@/services/paper.js";
+  // 1. 创建echarts实例
+  let myChart  = null;
+  const target = ref(null)
+  const authorDatum =ref([])
+  const graph = ref(null)
+  const { emit } = getCurrentInstance();
 
-const props = defineProps({
-  category: {
-    type: String,
-    required: true
+
+  const props = defineProps({
+    category: {
+      type: String,
+      required: true
+    }
+  })
+  const {category} = toRefs(props)
+  watch(() => category.value, async (newVal) => {
+    getHighChartIndex(newVal).then(res => {
+      authorDatum.value = res.data
+      console.log(authorDatum.value)
+    })
+
+    getHighChartData(newVal).then(res => {
+      graph.value = res.data
+      console.log(graph.value)
+      renderChart()
+    })
+
+    // const res = await findAllByCategory(newVal)
+    // wordData.value = res.data
+    // renderChart()
+  })
+
+  onMounted(() => {
+    renderChart();
+    // myChart = echarts.init(target.value)
+
+  })
+  // 2. 构建 option 配置对象
+  const renderChart = () => {
+    if (myChart) {
+      // 如果图表实例存在，则在创建新实例之前将其销毁
+      myChart.dispose();
+    }
+    myChart = echarts.init(target.value);
+
+    const countries = authorDatum.value
+
+    const datasetWithFilters = [];
+    const seriesList = [];
+
+
+    echarts.util.each(countries, function (name) {
+      let datasetId = 'dataset_' + name;
+      datasetWithFilters.push({
+        id: datasetId,
+        fromDatasetId: 'dataset_raw',
+        transform: {
+          type: 'filter',
+          config: {
+            and: [
+              // { dimension: 'Month', gte: 1950 },
+              { dimension: 'Name', '=': name }
+            ]
+          }
+        }
+      });
+      seriesList.push({
+        type: 'line',
+        datasetId: datasetId,
+        showSymbol: false,
+        name: name,
+        endLabel: {
+          show: true,
+          formatter: function (params) {
+            const valueToEmit = params.value[1];
+            emit('endLabelClick', valueToEmit);
+            return params.value[1] + ': ' + params.value[0];//索引在第二个而不是第四个 改了
+          }
+        },
+        labelLayout: {
+          moveOverlap: 'shiftY'
+        },
+        emphasis: {
+          focus: 'series'
+        },
+        encode: {
+          x: 'Month',
+          y: 'Value',
+          label: ['Name', 'Value'],
+          itemName: 'Month',
+          tooltip: ['Value']
+        }
+      });
+    });
+
+    const options = {
+      animationDuration: 10000,
+      dataset: [
+        {
+          id: 'dataset_raw',
+          source: graph.value//修改的数据
+        },
+        ...datasetWithFilters
+      ],
+      title: {
+        text: '高产作者'
+      },
+      tooltip: {
+        order: 'valueDesc',
+        trigger: 'axis'
+      },
+      xAxis: {
+        type: 'category',
+        nameLocation: 'middle',
+        data : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      },
+      yAxis: {
+        name: '发表论文量'
+      },
+      grid: {
+        right: 140
+      },
+      series: seriesList
+    };
+
+    // 3. 通过 实例.setOptions(option) 方法加载配置
+    myChart.setOption(options)
+    window.addEventListener('resize', () => {
+      myChart.resize()
+
+    })
   }
-})
-const {category} = toRefs(props)
-watch(() => category.value, async (newVal) => {
-  getHighChartIndex(newVal).then(res => {
-    authorDatum.value = res.data
-    console.log(authorDatum.value)
-  })
 
-  getHighChartData(newVal).then(res => {
-    graph.value = res.data
-    console.log(graph.value)
-    renderChart()
-  })
+  </script>
+  <style lang="scss" scoped>
 
-  // const res = await findAllByCategory(newVal)
-  // wordData.value = res.data
-  // renderChart()
-})
-
-onMounted(() => {
-  myChart = echarts.init(target.value)
-
-})
-// 2. 构建 option 配置对象
-const renderChart = () => {
-  const countries = authorDatum.value
-
-  const datasetWithFilters = [];
-  const seriesList = [];
-
-
-  echarts.util.each(countries, function (name) {
-    let datasetId = 'dataset_' + name;
-    datasetWithFilters.push({
-      id: datasetId,
-      fromDatasetId: 'dataset_raw',
-      transform: {
-        type: 'filter',
-        config: {
-          and: [
-            // { dimension: 'Month', gte: 1950 },
-            { dimension: 'Name', '=': name }
-          ]
-        }
-      }
-    });
-    seriesList.push({
-      type: 'line',
-      datasetId: datasetId,
-      showSymbol: false,
-      name: name,
-      endLabel: {
-        show: true,
-        formatter: function (params) {
-          return params.value[1] + ': ' + params.value[0];//索引在第二个而不是第四个 改了
-        }
-      },
-      labelLayout: {
-        moveOverlap: 'shiftY'
-      },
-      emphasis: {
-        focus: 'series'
-      },
-      encode: {
-        x: 'Month',
-        y: 'Value',
-        label: ['Name', 'Value'],
-        itemName: 'Month',
-        tooltip: ['Value']
-      }
-    });
-  });
-
-  const options = {
-    animationDuration: 10000,
-    dataset: [
-      {
-        id: 'dataset_raw',
-        source: graph.value//修改的数据
-      },
-      ...datasetWithFilters
-    ],
-    title: {
-      text: '高产作者'
-    },
-    tooltip: {
-      order: 'valueDesc',
-      trigger: 'axis'
-    },
-    xAxis: {
-      type: 'category',
-      nameLocation: 'middle',
-      data : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    },
-    yAxis: {
-      name: '发表论文量'
-    },
-    grid: {
-      right: 140
-    },
-    series: seriesList
-  };
-
-  // 3. 通过 实例.setOptions(option) 方法加载配置
-  myChart.setOption(options)
-  window.addEventListener('resize', () => {
-    myChart.resize()
-
-  })
-}
-
-</script>
-<style lang="scss" scoped>
-
-</style>
+  </style>
