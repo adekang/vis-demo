@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import {getCurrentInstance, onMounted, ref, toRefs, watch} from "vue"
+import {getCurrentInstance, onBeforeUnmount, onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import {selectForce} from "@/services/paper.js";
 
@@ -38,11 +38,6 @@ const renderChart = () => {
   const options = {
     width: "90%",
     height: "90%",
-    title: {
-      text: '网络图',
-      top: 'top',
-      left: 'left'
-    },
     tooltip: {},
     legend: [],
     animationDuration: 1500,
@@ -99,10 +94,17 @@ const renderChart = () => {
 
   // 3. 通过 实例.setOptions(option) 方法加载配置
   myChart.setOption(options)
-  window.addEventListener('resize', () => {
-    myChart.resize()
-  })
+  window.addEventListener('resize', resized)
 }
+const resized = () => {
+  myChart.resize()
+}
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', resized)
+  myChart.value?.dispose()
+  myChart.value = null
+})
 
 </script>
 <style lang="scss" scoped>

@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import {onMounted, ref, toRefs, watch} from "vue"
+import {onBeforeUnmount, onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import 'echarts-wordcloud';
 import {findAllByCategory} from "@/services/index.js";
@@ -25,10 +25,10 @@ watch(()=>category.value, async (newVal) => {
 
 
 // 1. 创建echarts实例
-let mChart = null;
+let myChart = null;
 const target = ref(null)
 onMounted(async () => {
-  mChart = echarts.init(target.value)
+  myChart = echarts.init(target.value)
 
 
   // const res = await findAllByCategory("Statistics")
@@ -67,11 +67,20 @@ const renderChart = () => {
     }]
   };
   // 3. 通过 实例.setOptions(option) 方法加载配置
-  mChart.setOption(options)
-  window.addEventListener('resize', () => {
-    myChart.resize()
-  })
+  myChart.setOption(options)
+  window.addEventListener('resize', resized)
 }
+
+const resized = () => {
+  myChart.resize()
+}
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', resized)
+  myChart.value?.dispose()
+  myChart.value = null
+})
+
 
 </script>
 <style lang="scss" scoped>

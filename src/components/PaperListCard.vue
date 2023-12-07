@@ -57,7 +57,9 @@
 
 <script setup>
 import {ref, toRefs, watch} from "vue";
-import {findAllByCategory, selectByCategory} from "@/services/paper.js";
+import {findAllByCategory, selectByCategory, selectPaperByName} from "@/services/paper.js";
+import {useUserStore} from "@/stores/userStore.js";
+import {storeToRefs} from "pinia";
 
 const listData = ref([]);
 const open = ref(false);
@@ -70,11 +72,20 @@ const props = defineProps({
   }
 })
 const {category} = toRefs(props)
+const store = useUserStore()
+const {token} = storeToRefs(store)
 watch(() => category.value, async (newVal) => {
   const res = await selectByCategory(newVal)
   listData.value = res.data
 })
 
+watch(() => token.value, (newVal) => {
+  if (newVal !== '') {
+    selectPaperByName(newVal).then(res => {
+      listData.value = res.data
+    })
+  }
+})
 
 const onSearch = (searchValue) => {
   findAllByCategory(searchValue).then(res => {
@@ -88,6 +99,9 @@ const showDrawer = (item) => {
   open.value = true;
   drawerData.value = item
 };
+
+
+
 
 </script>
 

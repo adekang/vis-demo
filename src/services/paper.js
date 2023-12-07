@@ -39,6 +39,21 @@ export const selectByCategory = (categories) => {
     })
 }
 
+/**
+ * 查找论文
+ * @param name
+ * @returns {Promise<unknown>}
+ */
+
+export const selectPaperByName = (name) => {
+    return service.get({
+        url: '/Paper/selectPaperByName',
+        params: {
+            name
+        }
+    })
+}
+
 
 /**
  * 网络图

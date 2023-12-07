@@ -3,13 +3,14 @@
 </template>
 
 <script setup>
-import {onMounted, ref, toRefs, watch} from "vue"
+import {onBeforeUnmount, onMounted, ref, toRefs, watch} from "vue"
 import * as echarts from 'echarts'
 import {selectByCategory, selectByName} from "@/services/paper.js";
+import {useUserStore} from "@/stores/userStore.js";
 // 1. 创建echarts实例
 let myChart = null;
 const target = ref(null)
-
+const store = useUserStore()
 const props = defineProps({
   name: {
     type: String,
@@ -23,7 +24,6 @@ watch(() => name.value, async (newVal) => {
   targetData.value = res.data
   renderChart()
 })
-
 
 
 const targetData = ref()
@@ -56,15 +56,24 @@ const renderChart = () => {
   };
 
   myChart.on("click", (params) => {
-    console.log(params.data);
+    console.log("name::", params.data);
+    store.token = params.data.name
   });
 
   // 3. 通过 实例.setOptions(option) 方法加载配置
   myChart.setOption(options)
-  window.addEventListener('resize', () => {
-    myChart.resize()
-  })
+  window.addEventListener('resize', resized)
 }
+
+const resized = () => {
+  myChart.resize()
+}
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', resized)
+  myChart.value?.dispose()
+  myChart.value = null
+})
 
 </script>
 <style lang="scss" scoped>

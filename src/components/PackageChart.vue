@@ -1,5 +1,5 @@
 <script setup>
-import {onMounted, ref,getCurrentInstance } from "vue";
+import {onMounted, ref, getCurrentInstance} from "vue";
 import * as d3 from 'd3'; // 引入D3.js库
 import dataJson from '../../public/data.json';
 import {useElementSize} from "@vueuse/core";
@@ -66,7 +66,7 @@ function drawChart(container) {
           return; // 如果是叶子节点，执行完传值操作后退出函数
         }
 
-          focus !== d && (zoom(event, d), event.stopPropagation());
+        focus !== d && (zoom(event, d), event.stopPropagation());
         // 剩余的放大缩小操作
 
       });
@@ -110,7 +110,6 @@ function drawChart(container) {
   function zoom(event, d) {
 
 
-
     focus = d;
     const transition = svg.transition()
         .duration(event.altKey ? 7500 : 750)
@@ -118,7 +117,6 @@ function drawChart(container) {
           const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
           return t => zoomTo(i(t));
         });
-
 
 
     label
@@ -148,6 +146,8 @@ function drawChart(container) {
 
   return svg.node();
 }
+
+
 </script>
 
 <template>
