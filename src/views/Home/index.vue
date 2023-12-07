@@ -95,13 +95,13 @@ const handleSelectByName = (data) => {
 
   .top-container {
     width: 100%;
-    height: 50%;
+    height: 60%;
 
   }
 
   .bottom-container {
     display: flex;
-    height: 50%;
+    height: 40%;
 
 
     .search-container {
