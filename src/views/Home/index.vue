@@ -57,6 +57,8 @@ const handleSelectByName = (data) => {
 
 
 <style lang='scss' scoped>
+$borderWidth: 15px;
+
 .main-container {
   width: 100%;
   height: 100vh;
@@ -64,11 +66,17 @@ const handleSelectByName = (data) => {
 }
 
 .item {
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: $borderWidth;
+  outline-offset: 2px;
+  outline: RGB(253, 126, 50) solid 1px;
+  border-width: 1px;
+  border-radius: 4px;
+  box-shadow: rgba(253, 126, 20, 0.2) 0px 7px 29px 0px;
 }
 
 
 .left-container {
+  padding: $borderWidth;
   height: 100%;
   width: 30%;
   display: flex;
@@ -80,12 +88,14 @@ const handleSelectByName = (data) => {
   }
 
   .word-container {
+    margin-top: $borderWidth;
     width: 100%;
     flex: 1;
   }
 }
 
 .right-container {
+  padding: $borderWidth $borderWidth $borderWidth 0;
   width: 70%;
   height: 100%;
   display: flex;
@@ -94,20 +104,22 @@ const handleSelectByName = (data) => {
   .top-container {
     width: 100%;
     height: 60%;
-
   }
 
   .bottom-container {
+    margin-top: $borderWidth;
     display: flex;
     height: 40%;
 
 
     .search-container {
+      margin-right:$borderWidth;
       flex: 1;
       height: 100%;
     }
 
     .high-container {
+      margin-right: $borderWidth;
       flex: 1;
       height: 100%;
     }
